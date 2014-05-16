@@ -19,6 +19,11 @@
 		2ACD61A019260EBD005E5DA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACD618819260EBD005E5DA5 /* UIKit.framework */; };
 		2ACD61A819260EBD005E5DA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ACD61A619260EBD005E5DA5 /* InfoPlist.strings */; };
 		2ACD61AA19260EBD005E5DA5 /* APNumberPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD61A919260EBD005E5DA5 /* APNumberPadTests.m */; };
+		2ACD61BE192612CB005E5DA5 /* APNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD61B5192612CB005E5DA5 /* APNumberButton.m */; };
+		2ACD61BF192612CB005E5DA5 /* APNumberPad+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD61B7192612CB005E5DA5 /* APNumberPad+Style.m */; };
+		2ACD61C0192612CB005E5DA5 /* APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD61B9192612CB005E5DA5 /* APNumberPad.m */; };
+		2ACD620619261A19005E5DA5 /* APNumberPadExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD620519261A19005E5DA5 /* APNumberPadExampleViewController.m */; };
+		2ACD620919261D53005E5DA5 /* APNumberPad.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2ACD620819261D53005E5DA5 /* APNumberPad.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,15 @@
 		2ACD61A519260EBD005E5DA5 /* APNumberPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APNumberPadTests-Info.plist"; sourceTree = "<group>"; };
 		2ACD61A719260EBD005E5DA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2ACD61A919260EBD005E5DA5 /* APNumberPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNumberPadTests.m; sourceTree = "<group>"; };
+		2ACD61B4192612CB005E5DA5 /* APNumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberButton.h; sourceTree = "<group>"; };
+		2ACD61B5192612CB005E5DA5 /* APNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberButton.m; sourceTree = "<group>"; };
+		2ACD61B6192612CB005E5DA5 /* APNumberPad+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APNumberPad+Style.h"; sourceTree = "<group>"; };
+		2ACD61B7192612CB005E5DA5 /* APNumberPad+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APNumberPad+Style.m"; sourceTree = "<group>"; };
+		2ACD61B8192612CB005E5DA5 /* APNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPad.h; sourceTree = "<group>"; };
+		2ACD61B9192612CB005E5DA5 /* APNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberPad.m; sourceTree = "<group>"; };
+		2ACD620419261A19005E5DA5 /* APNumberPadExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPadExampleViewController.h; sourceTree = "<group>"; };
+		2ACD620519261A19005E5DA5 /* APNumberPadExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberPadExampleViewController.m; sourceTree = "<group>"; };
+		2ACD620819261D53005E5DA5 /* APNumberPad.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = APNumberPad.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +121,14 @@
 		2ACD618A19260EBD005E5DA5 /* APNumberPad */ = {
 			isa = PBXGroup;
 			children = (
+				2ACD620819261D53005E5DA5 /* APNumberPad.bundle */,
+				2ACD61B3192612CB005E5DA5 /* APNumberPad */,
 				2ACD619319260EBD005E5DA5 /* APAppDelegate.h */,
 				2ACD619419260EBD005E5DA5 /* APAppDelegate.m */,
 				2ACD619619260EBD005E5DA5 /* Images.xcassets */,
 				2ACD618B19260EBD005E5DA5 /* Supporting Files */,
+				2ACD620419261A19005E5DA5 /* APNumberPadExampleViewController.h */,
+				2ACD620519261A19005E5DA5 /* APNumberPadExampleViewController.m */,
 			);
 			path = APNumberPad;
 			sourceTree = "<group>";
@@ -142,6 +160,19 @@
 				2ACD61A619260EBD005E5DA5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ACD61B3192612CB005E5DA5 /* APNumberPad */ = {
+			isa = PBXGroup;
+			children = (
+				2ACD61B4192612CB005E5DA5 /* APNumberButton.h */,
+				2ACD61B5192612CB005E5DA5 /* APNumberButton.m */,
+				2ACD61B6192612CB005E5DA5 /* APNumberPad+Style.h */,
+				2ACD61B7192612CB005E5DA5 /* APNumberPad+Style.m */,
+				2ACD61B8192612CB005E5DA5 /* APNumberPad.h */,
+				2ACD61B9192612CB005E5DA5 /* APNumberPad.m */,
+			);
+			path = APNumberPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +253,7 @@
 			files = (
 				2ACD618F19260EBD005E5DA5 /* InfoPlist.strings in Resources */,
 				2ACD619719260EBD005E5DA5 /* Images.xcassets in Resources */,
+				2ACD620919261D53005E5DA5 /* APNumberPad.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ACD619119260EBD005E5DA5 /* main.m in Sources */,
+				2ACD61BF192612CB005E5DA5 /* APNumberPad+Style.m in Sources */,
+				2ACD61C0192612CB005E5DA5 /* APNumberPad.m in Sources */,
+				2ACD620619261A19005E5DA5 /* APNumberPadExampleViewController.m in Sources */,
+				2ACD61BE192612CB005E5DA5 /* APNumberButton.m in Sources */,
 				2ACD619519260EBD005E5DA5 /* APAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -347,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -438,6 +474,7 @@
 				2ACD61AF19260EBD005E5DA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ACD61B019260EBD005E5DA5 /* Build configuration list for PBXNativeTarget "APNumberPadTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +483,7 @@
 				2ACD61B219260EBD005E5DA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
