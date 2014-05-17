@@ -10,6 +10,7 @@ APNumberPad is a custom keyboard for iOS allows you to create a keyboard `inputV
  - Device rotation
  - Customizable left function button
  - Customizable keyboard appearence (see `APNumberPad+Style.h`)
+ - Input clicks
 
 ## Usage
  - **[CocoaPods](http://cocoapods.org):**
