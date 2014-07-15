@@ -13,12 +13,19 @@
 
 @interface APNumberPad : UIView <UIInputViewAudioFeedback>
 
++ (instancetype)numberPadWithDelegate:(id<APNumberPadDelegate>)delegate NumberPadStyleClass:(Class)styleClass;
+
 + (instancetype)numberPadWithDelegate:(id<APNumberPadDelegate>)delegate;
 
 /**
  *  Left function button for custom configuration
  */
 @property (strong, readonly, nonatomic) UIButton *leftFunctionButton;
+
+/**
+ *  The class to use for styling the number pad
+ */
+@property (strong, readonly, nonatomic) Class styleClass;
 
 @end
 
