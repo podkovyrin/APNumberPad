@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'APNumberPad'
-  s.version      = '1.0'
+  s.version      = '1.1'
   s.summary      = 'Full clone of iOS number keyboard with customizable function button'
   s.description  = 'Custom keyboard for iOS allows you to create a keyboard inputView '\
                    'that looks and feels just like the iPhone keyboard '\
