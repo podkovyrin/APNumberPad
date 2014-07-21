@@ -57,6 +57,10 @@ Inspired by https://github.com/kulpreetchilana/Custom-iOS-Keyboards and http://s
 
 APNumberPad very gratefully makes use of backspace icon from Typicons set by Stephen Hutchings (http://typicons.com/), under Creative Commons (Attribution-Share Alike 3.0 Unported) license.
 
+## Contributors
+
+- [Vangeli Ontiveros](http://github.com/vanyas)
+
 ## License
 
 APNumberPad is available under the MIT license.
