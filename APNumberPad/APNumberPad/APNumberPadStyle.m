@@ -1,11 +1,12 @@
 //
-//  APNumberPad+Style.m
+//  APNumberPadStyle.m
+//  APNumberPad
 //
 //  Created by Andrew Podkovyrin on 16/05/14.
 //  Copyright (c) 2014 Podkovyrin. All rights reserved.
 //
 
-#import "APNumberPad+Style.h"
+#import "APNumberPadStyle.h"
 
 static inline UIColor * APNP_RGBa(int r, int g, int b, CGFloat alpha) {
     return [UIColor colorWithRed:r / 255.f
@@ -14,8 +15,7 @@ static inline UIColor * APNP_RGBa(int r, int g, int b, CGFloat alpha) {
                            alpha:alpha];
 }
 
-
-@implementation APNumberPad (Style)
+@implementation APNumberPadStyle
 
 #pragma mark - Pad
 
@@ -70,5 +70,6 @@ static inline UIColor * APNP_RGBa(int r, int g, int b, CGFloat alpha) {
 + (UIImage *)clearFunctionButtonImage {
     return [UIImage imageNamed:@"APNumberPad.bundle/images/apnumberpad_backspace_icon.png"];
 }
+
 
 @end

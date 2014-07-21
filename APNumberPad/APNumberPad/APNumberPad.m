@@ -8,8 +8,7 @@
 #import "APNumberPad.h"
 
 #import "APNumberButton.h"
-#import "APNumberPad+Style.h"
-
+#import "APNumberPadStyle.h"
 
 @interface APNumberPad () {
     BOOL _clearButtonLongPressGesture;
@@ -51,20 +50,32 @@
  */
 @property (weak, readwrite, nonatomic) UITouch *lastTouch;
 
+/**
+ *  The class to use for styling the number pad
+ */
+@property (strong, readwrite, nonatomic) Class styleClass;
+
 @end
 
 
 @implementation APNumberPad
 
 + (instancetype)numberPadWithDelegate:(id<APNumberPadDelegate>)delegate {
-    return [[self alloc] initWithDelegate:delegate];
+    return [self numberPadWithDelegate:delegate numberPadStyleClass:nil];
 }
 
-- (instancetype)initWithDelegate:(id<APNumberPadDelegate>)delegate {
-    self = [super initWithFrame:[[self class] numberPadFrame]];
++ (instancetype)numberPadWithDelegate:(id<APNumberPadDelegate>)delegate numberPadStyleClass:(Class)styleClass{
+    return [[self alloc] initWithDelegate:delegate NumberPadStyleClass:styleClass];
+}
+
+- (instancetype)initWithDelegate:(id<APNumberPadDelegate>)delegate NumberPadStyleClass:(Class)styleClass {
+    
+    self = [super initWithFrame:CGRectZero];
     if (self) {
+        self.styleClass = styleClass;
+        self.frame = [self.styleClass numberPadFrame];
         self.autoresizingMask = UIViewAutoresizingFlexibleHeight; // for support rotation
-        self.backgroundColor = [[self class] numberPadBackgroundColor];
+        self.backgroundColor = [self.styleClass numberPadBackgroundColor];
         
         [self addNotificationsObservers];
         
@@ -74,7 +85,7 @@
         //
         NSMutableArray *numberButtons = [NSMutableArray array];
         for (int i = 0; i < 11; i++) {
-            APNumberButton *numberButton = [[self class] numberButton:i];
+            APNumberButton *numberButton = [self numberButton:i];
             [self addSubview:numberButton];
             [numberButtons addObject:numberButton];
         }
@@ -82,16 +93,16 @@
         
         // Function button
         //
-        self.leftButton = [[self class] functionButton];
-        self.leftButton.titleLabel.font = [[self class] functionButtonFont];
-        [self.leftButton setTitleColor:[[self class] functionButtonTextColor] forState:UIControlStateNormal];
+        self.leftButton = [self functionButton];
+        self.leftButton.titleLabel.font = [self.styleClass functionButtonFont];
+        [self.leftButton setTitleColor:[self.styleClass functionButtonTextColor] forState:UIControlStateNormal];
         [self.leftButton addTarget:self action:@selector(functionButtonAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:self.leftButton];
         
         // Clear button
         //
-        self.clearButton = [[self class] functionButton];
-        [self.clearButton setImage:[[self class] clearFunctionButtonImage] forState:UIControlStateNormal];
+        self.clearButton = [self functionButton];
+        [self.clearButton setImage:[self.styleClass clearFunctionButtonImage] forState:UIControlStateNormal];
         [self.clearButton addTarget:self action:@selector(clearButtonAction) forControlEvents:UIControlEventTouchUpInside];
         
         UILongPressGestureRecognizer *longPressGestureRecognizer = [[UILongPressGestureRecognizer alloc]
@@ -113,7 +124,7 @@
     int rows = 4;
     int sections = 3;
     
-    CGFloat sep = [[self class] separator];
+    CGFloat sep = [self.styleClass separator];
     CGFloat left = 0.f;
     CGFloat top = 0.f;
     
@@ -305,6 +316,16 @@
     }
 }
 
+#pragma mark - Custom accessors
+
+- (void)setStyleClass:(Class)styleClass {
+    if (styleClass) {
+        _styleClass = styleClass;
+    } else {
+        _styleClass = [APNumberPadStyle class];
+    }
+}
+
 #pragma mark - Left function button
 
 - (UIButton *)leftFunctionButton {
@@ -325,13 +346,13 @@
             [self.textInput insertText:text];
         }
     } else if (_delegateFlags.delegateSupportsTextFieldShouldChangeCharactersInRange) {
-        NSRange selectedRange = [[self class] selectedRange:self.textInput];
+        NSRange selectedRange = [self.styleClass selectedRange:self.textInput];
         UITextField *textField = (UITextField *)self.textInput;
         if ([textField.delegate textField:textField shouldChangeCharactersInRange:selectedRange replacementString:text]) {
             [self.textInput insertText:text];
         }
     } else if (_delegateFlags.delegateSupportsTextViewShouldChangeTextInRange) {
-        NSRange selectedRange = [[self class] selectedRange:self.textInput];
+        NSRange selectedRange = [self.styleClass selectedRange:self.textInput];
         UITextView *textView = (UITextView *)self.textInput;
         if ([textView.delegate textView:textView shouldChangeTextInRange:selectedRange replacementText:text]) {
             [self.textInput insertText:text];
@@ -356,7 +377,7 @@
             [self.textInput deleteBackward];
         }
     } else if (_delegateFlags.delegateSupportsTextFieldShouldChangeCharactersInRange) {
-        NSRange selectedRange = [[self class] selectedRange:self.textInput];
+        NSRange selectedRange = [self.styleClass selectedRange:self.textInput];
         if (selectedRange.length == 0 && selectedRange.location > 0) {
             selectedRange.location--;
             selectedRange.length = 1;
@@ -366,7 +387,7 @@
             [self.textInput deleteBackward];
         }
     } else if (_delegateFlags.delegateSupportsTextViewShouldChangeTextInRange) {
-        NSRange selectedRange = [[self class] selectedRange:self.textInput];
+        NSRange selectedRange = [self.styleClass selectedRange:self.textInput];
         if (selectedRange.length == 0 && selectedRange.location > 0) {
             selectedRange.location--;
             selectedRange.length = 1;
@@ -432,19 +453,18 @@
 }
 
 #pragma mark - Button fabric
-
-+ (APNumberButton *)numberButton:(int)number {
-    APNumberButton *b = [APNumberButton buttonWithBackgroundColor:[self numberButtonBackgroundColor]
-                                                 highlightedColor:[self numberButtonHighlightedColor]];
-    [b setTitleColor:[self numberButtonTextColor] forState:UIControlStateNormal];
-    b.titleLabel.font = [self numberButtonFont];
+- (APNumberButton *)numberButton:(int)number {
+    APNumberButton *b = [APNumberButton buttonWithBackgroundColor:[self.styleClass numberButtonBackgroundColor]
+                                                 highlightedColor:[self.styleClass numberButtonHighlightedColor]];
+    [b setTitleColor:[self.styleClass numberButtonTextColor] forState:UIControlStateNormal];
+    b.titleLabel.font = [self.styleClass numberButtonFont];
     [b setTitle:[NSString stringWithFormat:@"%d", number] forState:UIControlStateNormal];
     return b;
 }
 
-+ (APNumberButton *)functionButton {
-    APNumberButton *b = [APNumberButton buttonWithBackgroundColor:[self functionButtonBackgroundColor]
-                                                 highlightedColor:[self functionButtonHighlightedColor]];
+- (APNumberButton *)functionButton {
+    APNumberButton *b = [APNumberButton buttonWithBackgroundColor:[self.styleClass functionButtonBackgroundColor]
+                                                 highlightedColor:[self.styleClass functionButtonHighlightedColor]];
     b.exclusiveTouch = YES;
     return b;
 }

@@ -1,13 +1,14 @@
 //
-//  APNumberPad+Style.h
+//  APNumberPadStyle.h
+//  APNumberPad
 //
 //  Created by Andrew Podkovyrin on 16/05/14.
 //  Copyright (c) 2014 Podkovyrin. All rights reserved.
 //
 
-#import "APNumberPad.h"
+#import <UIKit/UIKit.h>
 
-@interface APNumberPad (Style)
+@interface APNumberPadStyle : NSObject
 
 + (CGRect)numberPadFrame;
 + (CGFloat)separator;
