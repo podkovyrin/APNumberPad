@@ -60,24 +60,11 @@
 
 @implementation APNumberPad
 
-#pragma mark - Setter Style Class
-
-- (void)setStyleClass:(Class)styleClass{
-    if (!styleClass) {
-        _styleClass = [APNumberPadStyle class];
-    }else{
-        _styleClass = styleClass;
-    }
-}
-
-
-#pragma mark -
-
 + (instancetype)numberPadWithDelegate:(id<APNumberPadDelegate>)delegate {
-    return [self numberPadWithDelegate:delegate NumberPadStyleClass:nil];
+    return [self numberPadWithDelegate:delegate numberPadStyleClass:nil];
 }
 
-+ (instancetype)numberPadWithDelegate:(id<APNumberPadDelegate>)delegate NumberPadStyleClass:(Class)styleClass{
++ (instancetype)numberPadWithDelegate:(id<APNumberPadDelegate>)delegate numberPadStyleClass:(Class)styleClass{
     return [[self alloc] initWithDelegate:delegate NumberPadStyleClass:styleClass];
 }
 
@@ -326,6 +313,16 @@
         if (CGRectContainsPoint(b.frame, location)) {
             [self numberButtonAction:b];
         }
+    }
+}
+
+#pragma mark - Custom accessors
+
+- (void)setStyleClass:(Class)styleClass {
+    if (styleClass) {
+        _styleClass = styleClass;
+    } else {
+        _styleClass = [APNumberPadStyle class];
     }
 }
 

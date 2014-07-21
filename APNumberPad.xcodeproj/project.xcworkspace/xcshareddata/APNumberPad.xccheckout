@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D10FB93B-157E-489C-A783-01E3F4C486C0</string>
+	<string>906446F6-2BF9-49E3-8628-C9185BC3928B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>APNumberPad</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2C652499-982F-4D2B-85A5-B4013987A147</key>
-		<string>https://github.com/vanyas/APNumberPad.git</string>
+		<key>EF773753-EC69-4FF0-B135-2DCBFBDFE1CD</key>
+		<string>https://github.com/podkovyrin/APNumberPad</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>APNumberPad.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2C652499-982F-4D2B-85A5-B4013987A147</key>
+		<key>EF773753-EC69-4FF0-B135-2DCBFBDFE1CD</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/vanyas/APNumberPad.git</string>
+	<string>https://github.com/podkovyrin/APNumberPad</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2C652499-982F-4D2B-85A5-B4013987A147</string>
+	<string>EF773753-EC69-4FF0-B135-2DCBFBDFE1CD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2C652499-982F-4D2B-85A5-B4013987A147</string>
+			<string>EF773753-EC69-4FF0-B135-2DCBFBDFE1CD</string>
 			<key>IDESourceControlWCCName</key>
 			<string>APNumberPad</string>
 		</dict>

@@ -55,7 +55,7 @@
         _styledTextField = [[UITextField alloc] initWithFrame:CGRectZero];
         _styledTextField.borderStyle = UITextBorderStyleRoundedRect;
         _styledTextField.inputView = ({
-            APNumberPad *numberPad = [APNumberPad numberPadWithDelegate:self NumberPadStyleClass:[APDarkPadStyle class]];
+            APNumberPad *numberPad = [APNumberPad numberPadWithDelegate:self numberPadStyleClass:[APDarkPadStyle class]];
             
             [numberPad.leftFunctionButton setTitle:@"Change Style" forState:UIControlStateNormal];
             numberPad.leftFunctionButton.titleLabel.adjustsFontSizeToFitWidth = YES;
@@ -73,25 +73,23 @@
     if ([textInput isEqual:self.textField]) {
         [functionButton setTitle:[functionButton.currentTitle stringByAppendingString:@"z"] forState:UIControlStateNormal];
         [textInput insertText:@"#"];
-    }else{
-        
+    } else {
         Class currentSyle = [numberPad styleClass];
         
         Class nextStyle = currentSyle == [APDarkPadStyle class] ? [APBluePadStyle class] : [APDarkPadStyle class];
         self.styledTextField.inputView = ({
-            APNumberPad *numberPad = [APNumberPad numberPadWithDelegate:self NumberPadStyleClass:nextStyle];
+            APNumberPad *numberPad = [APNumberPad numberPadWithDelegate:self numberPadStyleClass:nextStyle];
             
             [numberPad.leftFunctionButton setTitle:@"Change Style" forState:UIControlStateNormal];
             numberPad.leftFunctionButton.titleLabel.adjustsFontSizeToFitWidth = YES;
             numberPad;
         });
        
-        //Trick for update the inputview
+        // Trick for update the inputview
+        //
         [self.styledTextField resignFirstResponder];
         [self.styledTextField becomeFirstResponder];
     }
-    
-
 }
 
 @end
