@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "APNumberPadStyle.h"
 
 @protocol APNumberPadDelegate;
 
@@ -25,7 +26,7 @@
 /**
  *  The class to use for styling the number pad
  */
-@property (strong, readonly, nonatomic) Class styleClass;
+@property (strong, readonly, nonatomic) Class<APNumberPadStyle> styleClass;
 
 @end
 

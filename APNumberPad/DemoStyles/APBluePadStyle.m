@@ -10,7 +10,6 @@
 
 @implementation APBluePadStyle
 
-
 #pragma mark - Pad
 
 + (UIColor *)numberPadBackgroundColor {

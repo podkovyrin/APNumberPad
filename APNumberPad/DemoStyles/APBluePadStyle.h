@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Andrew Podkovyrin. All rights reserved.
 //
 
-#import "APNumberPadStyle.h"
+#import "APNumberPadDefaultStyle.h"
 
-@interface APBluePadStyle : APNumberPadStyle
+@interface APBluePadStyle : APNumberPadDefaultStyle
 
 @end

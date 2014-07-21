@@ -8,7 +8,7 @@
 #import "APNumberPad.h"
 
 #import "APNumberButton.h"
-#import "APNumberPadStyle.h"
+#import "APNumberPadDefaultStyle.h"
 
 @interface APNumberPad () {
     BOOL _clearButtonLongPressGesture;
@@ -53,7 +53,7 @@
 /**
  *  The class to use for styling the number pad
  */
-@property (strong, readwrite, nonatomic) Class styleClass;
+@property (strong, readwrite, nonatomic) Class<APNumberPadStyle> styleClass;
 
 @end
 
@@ -65,11 +65,10 @@
 }
 
 + (instancetype)numberPadWithDelegate:(id<APNumberPadDelegate>)delegate numberPadStyleClass:(Class)styleClass{
-    return [[self alloc] initWithDelegate:delegate NumberPadStyleClass:styleClass];
+    return [[self alloc] initWithDelegate:delegate numberPadStyleClass:styleClass];
 }
 
-- (instancetype)initWithDelegate:(id<APNumberPadDelegate>)delegate NumberPadStyleClass:(Class)styleClass {
-    
+- (instancetype)initWithDelegate:(id<APNumberPadDelegate>)delegate numberPadStyleClass:(Class)styleClass {
     self = [super initWithFrame:CGRectZero];
     if (self) {
         self.styleClass = styleClass;
@@ -322,7 +321,7 @@
     if (styleClass) {
         _styleClass = styleClass;
     } else {
-        _styleClass = [APNumberPadStyle class];
+        _styleClass = [APNumberPadDefaultStyle class];
     }
 }
 

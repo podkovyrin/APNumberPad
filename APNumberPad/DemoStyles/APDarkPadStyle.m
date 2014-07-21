@@ -10,20 +10,6 @@
 
 @implementation APDarkPadStyle
 
-#pragma mark - Pad
-
-+ (CGRect)numberPadFrame {
-    return CGRectMake(0.f, 0.f, 320.f, 216.f);
-}
-
-+ (CGFloat)separator {
-    return [UIScreen mainScreen].scale == 2.f ? 0.5f : 1.f;
-}
-
-+ (UIColor *)numberPadBackgroundColor {
-    return [UIColor blackColor];
-}
-
 #pragma mark - Number button
 
 + (UIFont *)numberButtonFont {

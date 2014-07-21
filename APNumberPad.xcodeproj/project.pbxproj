@@ -23,7 +23,7 @@
 		2ACD620919261D53005E5DA5 /* APNumberPad.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2ACD620819261D53005E5DA5 /* APNumberPad.bundle */; };
 		B23467A11974A61800FE3F7A /* APNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B234679C1974A61800FE3F7A /* APNumberButton.m */; };
 		B23467A21974A61800FE3F7A /* APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B234679E1974A61800FE3F7A /* APNumberPad.m */; };
-		B23467A31974A61800FE3F7A /* APNumberPadStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B23467A01974A61800FE3F7A /* APNumberPadStyle.m */; };
+		B23467A31974A61800FE3F7A /* APNumberPadDefaultStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B23467A01974A61800FE3F7A /* APNumberPadDefaultStyle.m */; };
 		B23467A61974A66A00FE3F7A /* APDarkPadStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B23467A51974A66A00FE3F7A /* APDarkPadStyle.m */; };
 		B2DD031B197578030051DD71 /* APBluePadStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DD031A197578030051DD71 /* APBluePadStyle.m */; };
 /* End PBXBuildFile section */
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A4F2A55197DA26500ADEB96 /* APNumberPadStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNumberPadStyle.h; sourceTree = "<group>"; };
 		2ACD618119260EBD005E5DA5 /* APNumberPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APNumberPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACD618419260EBD005E5DA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2ACD618619260EBD005E5DA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +63,8 @@
 		B234679C1974A61800FE3F7A /* APNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberButton.m; sourceTree = "<group>"; };
 		B234679D1974A61800FE3F7A /* APNumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPad.h; sourceTree = "<group>"; };
 		B234679E1974A61800FE3F7A /* APNumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberPad.m; sourceTree = "<group>"; };
-		B234679F1974A61800FE3F7A /* APNumberPadStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPadStyle.h; sourceTree = "<group>"; };
-		B23467A01974A61800FE3F7A /* APNumberPadStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberPadStyle.m; sourceTree = "<group>"; };
+		B234679F1974A61800FE3F7A /* APNumberPadDefaultStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPadDefaultStyle.h; sourceTree = "<group>"; };
+		B23467A01974A61800FE3F7A /* APNumberPadDefaultStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberPadDefaultStyle.m; sourceTree = "<group>"; };
 		B23467A41974A66A00FE3F7A /* APDarkPadStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDarkPadStyle.h; sourceTree = "<group>"; };
 		B23467A51974A66A00FE3F7A /* APDarkPadStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDarkPadStyle.m; sourceTree = "<group>"; };
 		B2DD0319197578030051DD71 /* APBluePadStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBluePadStyle.h; sourceTree = "<group>"; };
@@ -187,8 +188,9 @@
 				B234679C1974A61800FE3F7A /* APNumberButton.m */,
 				B234679D1974A61800FE3F7A /* APNumberPad.h */,
 				B234679E1974A61800FE3F7A /* APNumberPad.m */,
-				B234679F1974A61800FE3F7A /* APNumberPadStyle.h */,
-				B23467A01974A61800FE3F7A /* APNumberPadStyle.m */,
+				B234679F1974A61800FE3F7A /* APNumberPadDefaultStyle.h */,
+				B23467A01974A61800FE3F7A /* APNumberPadDefaultStyle.m */,
+				2A4F2A55197DA26500ADEB96 /* APNumberPadStyle.h */,
 			);
 			path = APNumberPad;
 			sourceTree = "<group>";
@@ -291,7 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ACD619119260EBD005E5DA5 /* main.m in Sources */,
-				B23467A31974A61800FE3F7A /* APNumberPadStyle.m in Sources */,
+				B23467A31974A61800FE3F7A /* APNumberPadDefaultStyle.m in Sources */,
 				B2DD031B197578030051DD71 /* APBluePadStyle.m in Sources */,
 				B23467A11974A61800FE3F7A /* APNumberButton.m in Sources */,
 				B23467A21974A61800FE3F7A /* APNumberPad.m in Sources */,

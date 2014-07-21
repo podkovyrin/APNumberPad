@@ -1,12 +1,12 @@
 //
-//  APNumberPadStyle.m
+//  APNumberPadDefaultStyle.m
 //  APNumberPad
 //
 //  Created by Andrew Podkovyrin on 16/05/14.
 //  Copyright (c) 2014 Podkovyrin. All rights reserved.
 //
 
-#import "APNumberPadStyle.h"
+#import "APNumberPadDefaultStyle.h"
 
 static inline UIColor * APNP_RGBa(int r, int g, int b, CGFloat alpha) {
     return [UIColor colorWithRed:r / 255.f
@@ -15,7 +15,7 @@ static inline UIColor * APNP_RGBa(int r, int g, int b, CGFloat alpha) {
                            alpha:alpha];
 }
 
-@implementation APNumberPadStyle
+@implementation APNumberPadDefaultStyle
 
 #pragma mark - Pad
 
