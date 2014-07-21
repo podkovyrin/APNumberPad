@@ -346,13 +346,13 @@
             [self.textInput insertText:text];
         }
     } else if (_delegateFlags.delegateSupportsTextFieldShouldChangeCharactersInRange) {
-        NSRange selectedRange = [self.styleClass selectedRange:self.textInput];
+        NSRange selectedRange = [[self class] selectedRange:self.textInput];
         UITextField *textField = (UITextField *)self.textInput;
         if ([textField.delegate textField:textField shouldChangeCharactersInRange:selectedRange replacementString:text]) {
             [self.textInput insertText:text];
         }
     } else if (_delegateFlags.delegateSupportsTextViewShouldChangeTextInRange) {
-        NSRange selectedRange = [self.styleClass selectedRange:self.textInput];
+        NSRange selectedRange = [[self class] selectedRange:self.textInput];
         UITextView *textView = (UITextView *)self.textInput;
         if ([textView.delegate textView:textView shouldChangeTextInRange:selectedRange replacementText:text]) {
             [self.textInput insertText:text];
@@ -377,7 +377,7 @@
             [self.textInput deleteBackward];
         }
     } else if (_delegateFlags.delegateSupportsTextFieldShouldChangeCharactersInRange) {
-        NSRange selectedRange = [self.styleClass selectedRange:self.textInput];
+        NSRange selectedRange = [[self class] selectedRange:self.textInput];
         if (selectedRange.length == 0 && selectedRange.location > 0) {
             selectedRange.location--;
             selectedRange.length = 1;
@@ -387,7 +387,7 @@
             [self.textInput deleteBackward];
         }
     } else if (_delegateFlags.delegateSupportsTextViewShouldChangeTextInRange) {
-        NSRange selectedRange = [self.styleClass selectedRange:self.textInput];
+        NSRange selectedRange = [[self class] selectedRange:self.textInput];
         if (selectedRange.length == 0 && selectedRange.location > 0) {
             selectedRange.location--;
             selectedRange.length = 1;
