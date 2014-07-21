@@ -9,7 +9,7 @@ APNumberPad is a custom keyboard for iOS allows you to create a keyboard `inputV
  - FULLY repeats default iOS keyboard look'n'feel (input with "tap by tap", pan over keyboard and release finger on button, holding clear button, ...)
  - Device rotation
  - Customizable left function button
- - Customizable keyboard appearence (see `APNumberPad+Style.h`)
+ - Customizable keyboard appearence (see `APNumberPadStyle.h`)
  - `UITextField` and `UITextView` support (or any other `UIResponder` object that responds to `UITextInput` protocol)
  - Input clicks
 
