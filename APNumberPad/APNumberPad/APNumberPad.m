@@ -31,11 +31,6 @@
 @property (strong, readwrite, nonatomic) APNumberButton *leftButton;
 
 /**
- *  Right function button
- */
-@property (strong, readwrite, nonatomic) APNumberButton *clearButton;
-
-/**
  *  APNumberPad delegate
  */
 @property (weak, readwrite, nonatomic) id<APNumberPadDelegate> delegate;
@@ -262,7 +257,8 @@
     // Forget highlighted state for functional buttons after move
     //
     if (!CGRectContainsPoint(self.clearButton.frame, location)) {
-        [self.clearButton np_touchesCancelled:touches withEvent:event];
+        APNumberButton *clearButton = (id)self.clearButton;
+        [clearButton np_touchesCancelled:touches withEvent:event];
         
         // Disable long gesture action for clear button
         //
