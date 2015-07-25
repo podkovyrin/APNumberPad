@@ -24,6 +24,11 @@
 @property (strong, readonly, nonatomic) UIButton *leftFunctionButton;
 
 /**
+ *  Right function button
+ */
+@property (strong, readwrite, nonatomic) UIButton *clearButton;
+
+/**
  *  The class to use for styling the number pad
  */
 @property (strong, readonly, nonatomic) Class<APNumberPadStyle> styleClass;
