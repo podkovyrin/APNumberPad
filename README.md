@@ -19,8 +19,8 @@ APNumberPad is a custom keyboard for iOS allows you to create a keyboard `inputV
 pod 'APNumberPad'
 ```
  - **Manual:**
-1. Copy `APNumberPad/APNumberPad` folder anywhere to your project folder and add it to XCode.
-2. Copy `APNumberPad/APNumberPad.bundle` anywhere to your project folder and add it to XCode.
+1. Copy `APNumberPad/APNumberPad` folder anywhere to your project folder and add it to Xcode.
+2. Copy `APNumberPad/APNumberPad.bundle` anywhere to your project folder and add it to Xcode.
 
 ##Sample
 
