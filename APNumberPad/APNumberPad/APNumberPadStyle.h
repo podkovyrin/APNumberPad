@@ -23,5 +23,6 @@
 + (UIColor *)functionButtonHighlightedColor;
 + (UIColor *)functionButtonTextColor;
 + (UIImage *)clearFunctionButtonImage;
++ (UIImage *)clearFunctionButtonImageHighlighted;
 
 @end

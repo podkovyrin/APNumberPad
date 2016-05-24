@@ -97,6 +97,7 @@
         //
         self.clearButton = [self functionButton];
         [self.clearButton setImage:[self.styleClass clearFunctionButtonImage] forState:UIControlStateNormal];
+        [self.clearButton setImage:[self.styleClass clearFunctionButtonImageHighlighted] forState:UIControlStateHighlighted];
         [self.clearButton addTarget:self action:@selector(clearButtonAction) forControlEvents:UIControlEventTouchUpInside];
         
         UILongPressGestureRecognizer *longPressGestureRecognizer = [[UILongPressGestureRecognizer alloc]
