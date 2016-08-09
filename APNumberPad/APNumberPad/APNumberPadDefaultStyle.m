@@ -7,6 +7,7 @@
 //
 
 #import "APNumberPadDefaultStyle.h"
+#import "NSBundle+APNumberPad.h"
 
 static inline UIColor * APNP_RGBa(int r, int g, int b, CGFloat alpha) {
     return [UIColor colorWithRed:r / 255.f
@@ -68,11 +69,11 @@ static inline UIColor * APNP_RGBa(int r, int g, int b, CGFloat alpha) {
 }
 
 + (UIImage *)clearFunctionButtonImage {
-    return [UIImage imageNamed:@"APNumberPad.bundle/images/apnumberpad_backspace_icon.png"];
+	return [UIImage imageNamed:@"images/apnumberpad_backspace_icon.png" inBundle:[NSBundle ap_numberPadResourceBundle] compatibleWithTraitCollection:nil];
 }
 
 +(UIImage *)clearFunctionButtonImageHighlighted {
-    return [UIImage imageNamed:@"APNumberPad.bundle/images/apnumberpad_backspace_icon.png"];
+	return [UIImage imageNamed:@"images/apnumberpad_backspace_icon.png" inBundle:[NSBundle ap_numberPadResourceBundle] compatibleWithTraitCollection:nil];
 }
 
 @end
