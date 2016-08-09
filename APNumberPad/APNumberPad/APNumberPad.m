@@ -118,9 +118,12 @@
     
     int rows = 4;
     int sections = 3;
+	
+	const UIUserInterfaceIdiom interfaceIdiom = UI_USER_INTERFACE_IDIOM();
+	const CGFloat maximumWidth = (interfaceIdiom == UIUserInterfaceIdiomPad) ? 400.0f : CGRectGetWidth(self.bounds);
     
     CGFloat sep = [self.styleClass separator];
-    CGFloat left = 0.f;
+	CGFloat left = (CGRectGetWidth(self.bounds) - maximumWidth) / 2;
     CGFloat top = 0.f;
     
 #if defined(__LP64__) && __LP64__
@@ -130,6 +133,9 @@
 #endif
     
     CGSize buttonSize = CGSizeMake((CGRectGetWidth(self.bounds) - sep * (sections - 1)) / sections, buttonHeight);
+	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+		buttonSize = CGSizeMake((maximumWidth - sep * (sections - 1)) / sections, buttonHeight);
+	}
 
     // Number buttons (1-9)
     //
@@ -138,7 +144,7 @@
         numberButton.frame = CGRectMake(left, top, buttonSize.width, buttonSize.height);
         
         if (i % sections == 0) {
-            left = 0.f;
+            left = (CGRectGetWidth(self.bounds) - maximumWidth) / 2;
             top += buttonSize.height + sep;
         } else {
             left += buttonSize.width + sep;
@@ -147,7 +153,7 @@
     
     // Function button
     //
-    left = 0.f;
+    left = (CGRectGetWidth(self.bounds) - maximumWidth) / 2;
     self.leftButton.frame = CGRectMake(left, top, buttonSize.width, buttonSize.height);
     
     // Number buttons (0)

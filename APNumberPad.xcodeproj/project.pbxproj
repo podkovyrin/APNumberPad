@@ -420,6 +420,7 @@
 				GCC_PREFIX_HEADER = "APNumberPad/APNumberPad-Prefix.pch";
 				INFOPLIST_FILE = "APNumberPad/APNumberPad-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -433,6 +434,7 @@
 				GCC_PREFIX_HEADER = "APNumberPad/APNumberPad-Prefix.pch";
 				INFOPLIST_FILE = "APNumberPad/APNumberPad-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
