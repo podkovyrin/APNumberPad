@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'APNumberPad_Example' do
+  pod 'APNumberPad', :path => '../'
+
+  target 'APNumberPad_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
