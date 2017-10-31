@@ -47,7 +47,7 @@ textField.inputView = ({
 ```
 
 ## Requirements
-iOS 8.2 or later.
+iOS 8.3 or later.
 
 ## Notes
 Inspired by https://github.com/kulpreetchilana/Custom-iOS-Keyboards and http://stackoverflow.com/questions/13205160/how-do-i-retrieve-keystrokes-from-a-custom-keyboard-on-an-ios-app/13205494#13205494
