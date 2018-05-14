@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D29199EC1C8913FC7966FCB /* Pods_APNumberPad_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05626B0536F700D1C3928E0 /* Pods_APNumberPad_Example.framework */; };
 		1713C0A834B979A60E3C7004 /* Pods_APNumberPad_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85F20285ACAB81F4E9531FB /* Pods_APNumberPad_Tests.framework */; };
+		2A46C27D20AA32F4007037FA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A46C27C20AA32F4007037FA /* Launch Screen.storyboard */; };
 		2AD73C361E1F96BD00BBEAD9 /* APNumberPadExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD73C351E1F96BD00BBEAD9 /* APNumberPadExampleViewController.m */; };
 		2AD73C3C1E1F974C00BBEAD9 /* APBluePadStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD73C391E1F974C00BBEAD9 /* APBluePadStyle.m */; };
 		2AD73C3D1E1F974C00BBEAD9 /* APDarkPadStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD73C3B1E1F974C00BBEAD9 /* APDarkPadStyle.m */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		27155A07BD982FDD725F0A4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2A46C27C20AA32F4007037FA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2AD73C341E1F96BD00BBEAD9 /* APNumberPadExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPadExampleViewController.h; sourceTree = "<group>"; };
 		2AD73C351E1F96BD00BBEAD9 /* APNumberPadExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberPadExampleViewController.m; sourceTree = "<group>"; };
 		2AD73C381E1F974C00BBEAD9 /* APBluePadStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBluePadStyle.h; sourceTree = "<group>"; };
@@ -66,7 +68,7 @@
 		922A5437FBE42F8E28D89D86 /* Pods-APNumberPad_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APNumberPad_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APNumberPad_Tests/Pods-APNumberPad_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F41435A7D1FBB7AA68682F1 /* Pods-APNumberPad_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APNumberPad_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-APNumberPad_Example/Pods-APNumberPad_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C85F20285ACAB81F4E9531FB /* Pods_APNumberPad_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APNumberPad_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D69960327226B50CFABECECE /* APNumberPad.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = APNumberPad.podspec; path = ../APNumberPad.podspec; sourceTree = "<group>"; };
+		D69960327226B50CFABECECE /* APNumberPad.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = APNumberPad.podspec; path = ../APNumberPad.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E05626B0536F700D1C3928E0 /* Pods_APNumberPad_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APNumberPad_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3077CBCB89EEA21C05ABE8 /* Pods-APNumberPad_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APNumberPad_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APNumberPad_Example/Pods-APNumberPad_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +166,7 @@
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* APNumberPad-Prefix.pch */,
+				2A46C27C20AA32F4007037FA /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,7 +223,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				04DFAC6811075B369B86562E /* [CP] Embed Pods Frameworks */,
-				651E1944ACC08BD56BEF91DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +241,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				F3A2C4877897F1F04C992E61 /* [CP] Embed Pods Frameworks */,
-				C9B3D7E10F94C5B777ADD3EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,7 +259,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AP;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Andrew Podkovyrin";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -291,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A46C27D20AA32F4007037FA /* Launch Screen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -361,51 +362,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		651E1944ACC08BD56BEF91DE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APNumberPad_Example/Pods-APNumberPad_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9B3D7E10F94C5B777ADD3EB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APNumberPad_Tests/Pods-APNumberPad_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F3A2C4877897F1F04C992E61 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APNumberPad_Tests/Pods-APNumberPad_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -471,12 +427,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -503,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,12 +480,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -547,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -559,7 +519,6 @@
 			baseConfigurationReference = FD3077CBCB89EEA21C05ABE8 /* Pods-APNumberPad_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APNumberPad/APNumberPad-Prefix.pch";
 				INFOPLIST_FILE = "APNumberPad/APNumberPad-Info.plist";
@@ -575,7 +534,6 @@
 			baseConfigurationReference = 9F41435A7D1FBB7AA68682F1 /* Pods-APNumberPad_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APNumberPad/APNumberPad-Prefix.pch";
 				INFOPLIST_FILE = "APNumberPad/APNumberPad-Info.plist";

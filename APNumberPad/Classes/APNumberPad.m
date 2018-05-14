@@ -117,23 +117,26 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
 
+    CGFloat boundsWidth = CGRectGetWidth(self.bounds);
+    CGFloat boundsHeight = CGRectGetHeight(self.bounds);
+    
+    if (@available(iOS 11.0, *)) {
+        boundsHeight -= self.safeAreaInsets.bottom;
+    }
+
     int rows = 4;
     int sections = 3;
 
     const UIUserInterfaceIdiom interfaceIdiom = UI_USER_INTERFACE_IDIOM();
-    const CGFloat maximumWidth = (interfaceIdiom == UIUserInterfaceIdiomPad) ? 400.0 : CGRectGetWidth(self.bounds);
-
+    const CGFloat maximumWidth = (interfaceIdiom == UIUserInterfaceIdiomPad) ? 400.0 : boundsWidth;
+    
     CGFloat sep = [self.styleClass separator];
-    CGFloat left = (CGRectGetWidth(self.bounds) - maximumWidth) / 2;
+    CGFloat left = (boundsWidth - maximumWidth) / 2;
     CGFloat top = 0.f;
+    
+    CGFloat buttonHeight = trunc((boundsHeight - sep * (rows - 1)) / rows) + sep;
 
-#if defined(__LP64__) && __LP64__
-    CGFloat buttonHeight = trunc((CGRectGetHeight(self.bounds) - sep * (rows - 1)) / rows) + sep;
-#else
-    CGFloat buttonHeight = truncf((CGRectGetHeight(self.bounds) - sep * (rows - 1)) / rows) + sep;
-#endif
-
-    CGSize buttonSize = CGSizeMake((CGRectGetWidth(self.bounds) - sep * (sections - 1)) / sections, buttonHeight);
+    CGSize buttonSize = CGSizeMake((boundsWidth - sep * (sections - 1)) / sections, buttonHeight);
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
         buttonSize = CGSizeMake((maximumWidth - sep * (sections - 1)) / sections, buttonHeight);
     }
@@ -145,7 +148,7 @@
         numberButton.frame = CGRectMake(left, top, buttonSize.width, buttonSize.height);
 
         if (i % sections == 0) {
-            left = (CGRectGetWidth(self.bounds) - maximumWidth) / 2;
+            left = (boundsWidth - maximumWidth) / 2;
             top += buttonSize.height + sep;
         }
         else {
@@ -155,7 +158,7 @@
 
     // Function button
     //
-    left = (CGRectGetWidth(self.bounds) - maximumWidth) / 2;
+    left = (boundsWidth - maximumWidth) / 2;
     self.leftButton.frame = CGRectMake(left, top, buttonSize.width, buttonSize.height);
 
     // Number buttons (0)
