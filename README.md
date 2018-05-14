@@ -1,6 +1,6 @@
 # APNumberPad
 
-[![CI Status](http://img.shields.io/travis/Andrew Podkovyrin/APNumberPad.svg?style=flat)](https://travis-ci.org/Andrew Podkovyrin/APNumberPad)
+[![CI Status](http://img.shields.io/travis/podkovyrin/APNumberPad.svg?style=flat)](https://travis-ci.org/podkovyrin/APNumberPad)
 [![Version](https://img.shields.io/cocoapods/v/APNumberPad.svg?style=flat)](http://cocoapods.org/pods/APNumberPad)
 [![License](https://img.shields.io/cocoapods/l/APNumberPad.svg?style=flat)](http://cocoapods.org/pods/APNumberPad)
 [![Platform](https://img.shields.io/cocoapods/p/APNumberPad.svg?style=flat)](http://cocoapods.org/pods/APNumberPad)
@@ -16,6 +16,7 @@ APNumberPad is a custom keyboard for iOS allows you to create a keyboard `inputV
  - Customizable keyboard appearence (see `APNumberPadStyle.h`)
  - `UITextField` and `UITextView` support (or any other `UIResponder` object that responds to `UITextInput` protocol)
  - Input clicks
+ - iPhone X (safe area) support
 
 ## Example
 
@@ -47,7 +48,7 @@ textField.inputView = ({
 ```
 
 ## Requirements
-iOS 8.3 or later.
+iOS 9.0 or later.
 
 ## Notes
 Inspired by https://github.com/kulpreetchilana/Custom-iOS-Keyboards and http://stackoverflow.com/questions/13205160/how-do-i-retrieve-keystrokes-from-a-custom-keyboard-on-an-ios-app/13205494#13205494
