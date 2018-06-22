@@ -1,0 +1,6 @@
+framework module Pods_APNumberPad_Example {
+  umbrella header "Pods-APNumberPad_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
