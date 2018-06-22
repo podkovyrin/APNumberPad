@@ -1,5 +1,5 @@
 PODS:
-  - APNumberPad (1.2.1)
+  - APNumberPad (1.2.2)
 
 DEPENDENCIES:
   - APNumberPad (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  APNumberPad: d635c200dd531c14c28118419ead0ba5c3bb0667
+  APNumberPad: 7d3bc940c89e32c7d0815ac905cdbf844ca2a5e3
 
 PODFILE CHECKSUM: 0622712887d7d3d46b98a5876b6ec9e6802d72d1
 
