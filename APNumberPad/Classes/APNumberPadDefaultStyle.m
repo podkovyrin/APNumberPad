@@ -35,7 +35,11 @@ static inline UIColor *APNP_RGBa(int r, int g, int b, CGFloat alpha) {
 #pragma mark - Number button
 
 + (UIFont *)numberButtonFont {
-    return [UIFont systemFontOfSize:28.0 weight:UIFontWeightLight];
+    if (@available(iOS 8.2, *)) {
+        return [UIFont systemFontOfSize:28.0 weight:UIFontWeightLight];
+    } else {
+        return [UIFont systemFontOfSize:28.0];
+    }
 }
 
 + (UIColor *)numberButtonTextColor {
@@ -53,7 +57,11 @@ static inline UIColor *APNP_RGBa(int r, int g, int b, CGFloat alpha) {
 #pragma mark - Function button
 
 + (UIFont *)functionButtonFont {
-    return [UIFont systemFontOfSize:28.0 weight:UIFontWeightLight];
+    if (@available(iOS 8.2, *)) {
+        return [UIFont systemFontOfSize:28.0 weight:UIFontWeightLight];
+    } else {
+        return [UIFont systemFontOfSize:28.0];
+    }
 }
 
 + (UIColor *)functionButtonTextColor {
