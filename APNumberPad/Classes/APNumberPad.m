@@ -21,6 +21,11 @@
 }
 
 /**
+ * Plain UIView used to block out the safe area
+ */
+@property (strong, readwrite, nonatomic) UIView *safeAreaCover;
+
+/**
  *  Array of APNumberButton
  */
 @property (copy, readwrite, nonatomic) NSArray *numberButtons;
@@ -85,6 +90,10 @@
         }
         self.numberButtons = numberButtons;
 
+        self.safeAreaCover = [[UIView alloc] initWithFrame:CGRectZero];
+        self.safeAreaCover.backgroundColor = [self.styleClass safeAreaSpaceColor];
+        [self addSubview:self.safeAreaCover];
+
         // Function button
         //
         self.leftButton = [self functionButton];
@@ -119,10 +128,13 @@
 
     CGFloat boundsWidth = CGRectGetWidth(self.bounds);
     CGFloat boundsHeight = CGRectGetHeight(self.bounds);
-    
+    CGFloat safeAreaHeight = 0;
+
     if (@available(iOS 11.0, *)) {
-        boundsHeight -= self.safeAreaInsets.bottom;
+        safeAreaHeight = self.safeAreaInsets.bottom;
     }
+
+    boundsHeight -= safeAreaHeight;
 
     int rows = 4;
     int sections = 3;
@@ -171,6 +183,9 @@
     //
     left += buttonSize.width + sep;
     self.clearButton.frame = CGRectMake(left, top, buttonSize.width, buttonSize.height);
+
+    // Safe area cover
+    self.safeAreaCover.frame = CGRectMake(0, top + buttonSize.height + sep, boundsWidth, safeAreaHeight);
 }
 
 #pragma mark - Notifications

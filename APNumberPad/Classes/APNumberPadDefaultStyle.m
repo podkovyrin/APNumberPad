@@ -32,6 +32,10 @@ static inline UIColor *APNP_RGBa(int r, int g, int b, CGFloat alpha) {
     return APNP_RGBa(183, 186, 191, 1.0);
 }
 
++ (UIColor *)safeAreaSpaceColor {
+    return [UIColor clearColor];
+}
+
 #pragma mark - Number button
 
 + (UIFont *)numberButtonFont {
