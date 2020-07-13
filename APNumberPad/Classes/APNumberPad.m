@@ -38,7 +38,7 @@
 /**
  *  Auto-detected text input
  */
-@property (weak, readwrite, nonatomic) UIResponder<UITextInput> *textInput;
+@property (weak, readwrite, nonatomic) UIResponder<UIKeyInput> *textInput;
 
 /**
  *  Last touch on view. For support tap by tap entering text
@@ -198,11 +198,11 @@
 }
 
 - (void)textDidBeginEditing:(NSNotification *)notification {
-    if (![notification.object conformsToProtocol:@protocol(UITextInput)]) {
+    if (![notification.object conformsToProtocol:@protocol(UIKeyInput)]) {
         return;
     }
 
-    UIResponder<UITextInput> *textInput = notification.object;
+    UIResponder<UIKeyInput> *textInput = notification.object;
 
     if (textInput.inputView && self == textInput.inputView) {
         self.textInput = textInput;
@@ -353,20 +353,21 @@
     NSString *text = sender.currentTitle;
 
     if (_delegateFlags.textInputSupportsShouldChangeTextInRange) {
-        if ([self.textInput shouldChangeTextInRange:self.textInput.selectedTextRange replacementText:text]) {
+        UIResponder<UITextInput> *input = (UIResponder<UITextInput> *)self.textInput;
+        if ([input shouldChangeTextInRange:input.selectedTextRange replacementText:text]) {
             [self.textInput insertText:text];
         }
     }
     else if (_delegateFlags.delegateSupportsTextFieldShouldChangeCharactersInRange) {
-        NSRange selectedRange = [[self class] selectedRange:self.textInput];
         UITextField *textField = (UITextField *)self.textInput;
+        NSRange selectedRange = [[self class] selectedRange:textField];
         if ([textField.delegate textField:textField shouldChangeCharactersInRange:selectedRange replacementString:text]) {
             [self.textInput insertText:text];
         }
     }
     else if (_delegateFlags.delegateSupportsTextViewShouldChangeTextInRange) {
-        NSRange selectedRange = [[self class] selectedRange:self.textInput];
         UITextView *textView = (UITextView *)self.textInput;
+        NSRange selectedRange = [[self class] selectedRange:textView];
         if ([textView.delegate textView:textView shouldChangeTextInRange:selectedRange replacementText:text]) {
             [self.textInput insertText:text];
         }
@@ -382,33 +383,38 @@
     }
 
     if (_delegateFlags.textInputSupportsShouldChangeTextInRange) {
-        UITextRange *textRange = self.textInput.selectedTextRange;
+        UIResponder<UITextInput> *input = (UIResponder<UITextInput> *)self.textInput;
+        UITextRange *textRange = input.selectedTextRange;
         if ([textRange.start isEqual:textRange.end]) {
-            UITextPosition *newStart = [self.textInput positionFromPosition:textRange.start inDirection:UITextLayoutDirectionLeft offset:1];
-            textRange = [self.textInput textRangeFromPosition:newStart toPosition:textRange.end];
+            UITextPosition *newStart = [input positionFromPosition:textRange.start inDirection:UITextLayoutDirectionLeft offset:1];
+            textRange = [input textRangeFromPosition:newStart toPosition:textRange.end];
         }
-        if ([self.textInput shouldChangeTextInRange:textRange replacementText:@""]) {
-            [self.textInput deleteBackward];
+        if ([input shouldChangeTextInRange:textRange replacementText:@""]) {
+            [input deleteBackward];
         }
     }
     else if (_delegateFlags.delegateSupportsTextFieldShouldChangeCharactersInRange) {
-        NSRange selectedRange = [[self class] selectedRange:self.textInput];
+        UITextField *textField = (UITextField *)self.textInput;
+
+        NSRange selectedRange = [[self class] selectedRange:textField];
         if (selectedRange.length == 0 && selectedRange.location > 0) {
             selectedRange.location--;
             selectedRange.length = 1;
         }
-        UITextField *textField = (UITextField *)self.textInput;
+
         if ([textField.delegate textField:textField shouldChangeCharactersInRange:selectedRange replacementString:@""]) {
             [self.textInput deleteBackward];
         }
     }
     else if (_delegateFlags.delegateSupportsTextViewShouldChangeTextInRange) {
-        NSRange selectedRange = [[self class] selectedRange:self.textInput];
+        UITextView *textView = (UITextView *)self.textInput;
+
+        NSRange selectedRange = [[self class] selectedRange:textView];
         if (selectedRange.length == 0 && selectedRange.location > 0) {
             selectedRange.location--;
             selectedRange.length = 1;
         }
-        UITextView *textView = (UITextView *)self.textInput;
+
         if ([textView.delegate textView:textView shouldChangeTextInRange:selectedRange replacementText:@""]) {
             [self.textInput deleteBackward];
         }

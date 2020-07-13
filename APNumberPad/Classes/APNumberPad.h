@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 
-- (void)numberPad:(APNumberPad *)numberPad functionButtonAction:(UIButton *)functionButton textInput:(UIResponder<UITextInput> *)textInput;
+- (void)numberPad:(APNumberPad *)numberPad functionButtonAction:(UIButton *)functionButton textInput:(UIResponder<UIKeyInput> *)textInput;
 
 @end
 
