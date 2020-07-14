@@ -203,7 +203,18 @@
     }
 
     UIResponder<UIKeyInput> *textInput = notification.object;
+    [self didBecomeActiveInputViewForResponder:textInput];
+}
 
+- (void)textDidEndEditing:(NSNotification *)notification {
+    [self didResignInputViewForResponder];
+}
+
+- (void)didResignInputViewForResponder {
+    self.textInput = nil;
+}
+
+- (void)didBecomeActiveInputViewForResponder:(UIResponder<UIKeyInput> *)textInput {
     if (textInput.inputView && self == textInput.inputView) {
         self.textInput = textInput;
 
@@ -227,10 +238,6 @@
             }
         }
     }
-}
-
-- (void)textDidEndEditing:(NSNotification *)notification {
-    self.textInput = nil;
 }
 
 #pragma mark - UIResponder
