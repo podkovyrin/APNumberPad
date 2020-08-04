@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (CGRect)numberPadFrame;
 + (CGFloat)separator;
 + (UIColor *)numberPadBackgroundColor;
++ (UIColor *)safeAreaSpaceColor;
 
 + (UIFont *)numberButtonFont;
 + (UIColor *)numberButtonBackgroundColor;
