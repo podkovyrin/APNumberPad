@@ -12,6 +12,9 @@
 @implementation NSBundle (APNumberPad)
 
 + (instancetype)ap_numberPadResourceBundle {
+#if SWIFT_PACKAGE
+    return SWIFTPM_MODULE_BUNDLE;
+#else
     static NSBundle *resourceBundle = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -20,6 +23,7 @@
     });
 
     return resourceBundle;
+#endif
 }
 
 @end

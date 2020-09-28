@@ -7,7 +7,7 @@
 //
 
 #import "APNumberPadDefaultStyle.h"
-#import "NSBundle+APNumberPad.h"
+#import "Private/NSBundle+APNumberPad.h"
 
 static inline UIColor *APNP_RGBa(int r, int g, int b, CGFloat alpha) {
     return [UIColor colorWithRed:r / 255.0

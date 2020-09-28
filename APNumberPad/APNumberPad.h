@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "APNumberPadStyle.h"
+#import "APNumberPadDefaultStyle.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

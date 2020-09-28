@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 Andrew Podkovyrin. All rights reserved.
 //
 
-#import <APNumberPad/NSBundle+APNumberPad.h>
-
 #import "APDarkPadStyle.h"
 
 @implementation APDarkPadStyle
@@ -47,10 +45,5 @@
 + (UIColor *)functionButtonHighlightedColor {
     return [UIColor colorWithRed:238 / 255.0 green:238 / 255.0 blue:238 / 255.0 alpha:1.0];
 }
-
-+ (UIImage *)clearFunctionButtonImage {
-    return [UIImage imageNamed:@"apnumberpad_backspace_icon.png" inBundle:[NSBundle ap_numberPadResourceBundle] compatibleWithTraitCollection:nil];
-}
-
 
 @end

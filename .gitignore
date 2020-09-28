@@ -32,3 +32,7 @@ Carthage
 #
 #Pods/
 #Example/Podfile.lock
+
+
+# SwiftPM
+.swiftpm/
