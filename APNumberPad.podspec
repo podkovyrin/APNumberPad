@@ -16,9 +16,10 @@ Also APNumberPad provides customizable left-function button.
   s.source           = { :git => 'https://github.com/podkovyrin/APNumberPad.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/podkovyr'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'APNumberPad/Classes/**/*'
+  s.source_files = 'APNumberPad/**/*'
+  s.public_header_files = 'APNumberPad/*.h'
   s.resource_bundles = {
     'APNumberPad' => ['APNumberPad/Assets/*.png']
   }

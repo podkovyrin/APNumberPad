@@ -5,7 +5,7 @@
 //  Copyright (c) 2014 Podkovyrin. All rights reserved.
 //
 
-#import "APNumberButton.h"
+#import "Private/APNumberButton.h"
 #import "APNumberPadDefaultStyle.h"
 
 #import "APNumberPad.h"
