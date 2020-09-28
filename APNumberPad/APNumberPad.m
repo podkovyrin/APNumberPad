@@ -6,7 +6,6 @@
 //
 
 #import "Private/APNumberButton.h"
-#import "APNumberPadDefaultStyle.h"
 
 #import "APNumberPad.h"
 
