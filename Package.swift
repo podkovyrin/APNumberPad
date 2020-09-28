@@ -10,11 +10,19 @@ let package = Package(
     products: [
         .library(
             name: "APNumberPad",
-            targets: ["APNumberPad"]),
+            targets: ["APNumberPad"]
+        ),
     ],
     targets: [
         .target(
             name: "APNumberPad",
-            path: "APNumberPad"),
+            path: "APNumberPad",
+            resources: [.process("Assets")],
+            publicHeadersPath: ""
+        ),
+        .testTarget(
+          name: "APNumberPadTests",
+          dependencies: ["APNumberPad"]
+        ),
     ]
 )

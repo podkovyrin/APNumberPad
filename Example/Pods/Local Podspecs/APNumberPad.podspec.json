@@ -19,7 +19,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "APNumberPad/**/*",
+  "source_files": "APNumberPad/**/*.{h,m}",
   "public_header_files": "APNumberPad/*.h",
   "resource_bundles": {
     "APNumberPad": [

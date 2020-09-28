@@ -18,7 +18,7 @@ Also APNumberPad provides customizable left-function button.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'APNumberPad/**/*'
+  s.source_files = 'APNumberPad/**/*.{h,m}'
   s.public_header_files = 'APNumberPad/*.h'
   s.resource_bundles = {
     'APNumberPad' => ['APNumberPad/Assets/*.png']
