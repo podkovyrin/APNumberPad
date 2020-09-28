@@ -1,11 +1,11 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 
 import PackageDescription
 
 let package = Package(
     name: "APNumberPad",
     platforms: [
-        .iOS(.v8),
+        .iOS(.v9),
     ],
     products: [
         .library(
@@ -15,6 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "APNumberPad",
-            path: "APNumberPad"),
+            path: "APNumberPad",
+            resources: [.process("Assets")]),
     ]
 )
