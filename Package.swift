@@ -15,7 +15,6 @@ let package = Package(
     targets: [
         .target(
             name: "APNumberPad",
-            path: "APNumberPad",
-            resources: [.process("Assets")]),
+            path: "APNumberPad"),
     ]
 )
