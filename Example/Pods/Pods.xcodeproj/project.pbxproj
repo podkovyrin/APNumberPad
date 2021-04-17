@@ -7,103 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EC542B6416E61299325CD4DB9495C77 /* NSBundle+APNumberPad.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B14799410DF69B76E6F3FFC956FC8D /* NSBundle+APNumberPad.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1C8B837A2EBE31171D081176476D883B /* apnumberpad_backspace_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C3E0C985EC20DF28ECDC62E78FF54DB /* apnumberpad_backspace_icon@2x.png */; };
+		0CEED3BDC20A5D6A392D1C94186C9172 /* APNumberPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FF59A9D32B6538E4AA19BF83945C27 /* APNumberPad-dummy.m */; };
+		1A3AD57443C0B97A8FA2D237AD8FAAD3 /* APNumberPad.h in Headers */ = {isa = PBXBuildFile; fileRef = 890D2F3101606BF6DF9E93AEA08DB365 /* APNumberPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CE2B1884705717E6B7D30F9B33E4E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		21B01F488204FE27CC49A21D3C693641 /* Pods-APNumberPad_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1128A067BA918614B46CAE56F44A99 /* Pods-APNumberPad_Tests-dummy.m */; };
 		239CF13EB08398AD8282307AC709FA41 /* Pods-APNumberPad_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC6D84BCA176E102F981743A3A624E7 /* Pods-APNumberPad_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2773D099EABF8DBE203DB9C8347AD1D9 /* APNumberPad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 201F7BF855996857F103A1E133C61B3F /* APNumberPad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27AC78193C8B7734B1112C2818F49909 /* APNumberPad.h in Headers */ = {isa = PBXBuildFile; fileRef = A06018CC77A2831CACA4381F40FC9A51 /* APNumberPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3490EA5EBE2C3AFB7C3CDDE138208DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		3BCEB2D3BBCF60C6E97BB0C0287EDCCB /* APNumberPadStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 715ECBD8CC42FA7CACAD0EA4C89CA03E /* APNumberPadStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4769BFA97B60DF4EB731614BC2A163DD /* APNumberPadDefaultStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 12694CA8B597DABA4DE071EFAFD6079D /* APNumberPadDefaultStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		317A3DBFE6C4FC40B3ED5A3B441DBFDA /* APNumberPadDefaultStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9327533EF789B67BBE0FD8A2586F6C /* APNumberPadDefaultStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A15D480D5BAB347F81602A940047F88 /* APNumberPad.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8942155D9259260A8F3086896D7BF505 /* APNumberPad.bundle */; };
-		5A895E53B1C9407EB6481BA15AC79799 /* apnumberpad_backspace_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A8C7666AAEEE8AE2058AAA8BA9075 /* apnumberpad_backspace_icon.png */; };
-		6D88E6133D7E499825C5B5B98939DC7E /* APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DC171A6EEFDB3CED2D88F7F34C4289 /* APNumberPad.m */; };
-		7181CF53B2622DCA9049E17FF2F1032F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		7DCF7EE10499456D949C0B8507D3AE94 /* APNumberButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E02DE97EDCF6522015266A5085CBFB0 /* APNumberButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		85F9EC57ED0C3AD56BB2C1F3A9DEB00C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		5BD567ABBA37D72E9B391017860E5739 /* APNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8639A1D49B3E5B02D08756D7853B76 /* APNumberButton.m */; };
+		639429D3D3FD96EC7295F7BA90F68C82 /* APNumberPad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1ABBA2B2EF4847662DDF7F739DD8D6 /* APNumberPad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B71ADA674F05541F11DCF42556604F1 /* apnumberpad_backspace_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 740CCB891AC9D68477052D7A673C5520 /* apnumberpad_backspace_icon.png */; };
+		7C3B4128F8C39608462FDE8EA32FF5FA /* APNumberButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 301DEC85F681903055A7046E897C981D /* APNumberButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C4658DB887026B41FBB76ADF2521475 /* Pods-APNumberPad_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863229C719940FBE34413E0214B9ECA /* Pods-APNumberPad_Example-dummy.m */; };
-		A2321A732ED1F2359B1C101ADDC1B9D3 /* apnumberpad_backspace_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90761559BD3198ECE60E8E31C853CA24 /* apnumberpad_backspace_icon@3x.png */; };
-		ADD240D67CDB3EDC511058CD6C5E1AE4 /* APNumberPadDefaultStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0A603BAE17E137808D5408A09F2037 /* APNumberPadDefaultStyle.m */; };
-		BC8AE563652A0BC3AA8DE44CD76D83FF /* NSBundle+APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB934D3A6EDEA5213416D7F380587DA /* NSBundle+APNumberPad.m */; };
-		BF5DB41C69CD81C3061920AC4E0A4AEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		E9482C22EB2DF69A4BC1860911FE9BDC /* APNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D2D52475C3C73E80B41F529766EF38 /* APNumberButton.m */; };
-		EEFA578A1C0E5DF933AB749EB105E073 /* APNumberPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA76C76737F80FACF876FE118F64EA9 /* APNumberPad-dummy.m */; };
+		9BE2405997DD516DE8AF3DFFC1349C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		A887B0DBA8F00320030C598CFBEDB5E8 /* APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B796A90B7914CBD6B9D704424E127E1A /* APNumberPad.m */; };
+		AAE60156429E9FBBF74B4DC5707116EE /* APNumberPadDefaultStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 58497101BD1081290273FC27ACF596AC /* APNumberPadDefaultStyle.m */; };
+		CBEF5689C2BFE8499D401980E5DF195E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		CCE79EAC7024ECA0B998CCEDD0694E37 /* apnumberpad_backspace_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5618F19FDAF3FB21F0710933001967 /* apnumberpad_backspace_icon@3x.png */; };
+		E6F356297E36AF22C37D9A5A3A4D2A2B /* apnumberpad_backspace_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F5E91F21119F3EBD6806B41C75BA9F0 /* apnumberpad_backspace_icon@2x.png */; };
+		F0EBC1466923C2FE60E4709E1B2CAAD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F33070EC9F721DD7247B12A0D7C46DAB /* APNumberPadStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A60144ADD1E0F673B5F880BB2EDC2D3 /* APNumberPadStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F415B61EE48619AC23D72EE2351FE02E /* NSBundle+APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C43D981CB4BF19D45134A7C62D7374 /* NSBundle+APNumberPad.m */; };
 		F41C79083B58DE91B2ACD182C0AC5CF1 /* Pods-APNumberPad_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3CB2EA5BF8631014010CDD22255141 /* Pods-APNumberPad_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE017E676D4000CB8E45A861007D0C40 /* NSBundle+APNumberPad.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F278905B128CE17BD2BC7801DF95FEE /* NSBundle+APNumberPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4E530759600C5C134D3135FDD9A51565 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0315D731DDEDEDC66417054CE919FCB0;
-			remoteInfo = APNumberPad;
-		};
-		57F6D000947561B1683C19C181EF19F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 613112B675091A5BCA27E00EF544823E;
-			remoteInfo = "APNumberPad-APNumberPad";
-		};
-		7C0794A960B42E4B8AEF51C0C14F5C55 /* PBXContainerItemProxy */ = {
+		4FDC3F6463F8B92547A7E753FA28E68F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4A8343EF43F22A4948A42C0632F0D89;
 			remoteInfo = "Pods-APNumberPad_Example";
 		};
+		7B1EF546E0C7E434E3D8A803A837F671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0315D731DDEDEDC66417054CE919FCB0;
+			remoteInfo = APNumberPad;
+		};
+		B8C8404C061F7AD1C0371EBA49435D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613112B675091A5BCA27E00EF544823E;
+			remoteInfo = "APNumberPad-APNumberPad";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A60144ADD1E0F673B5F880BB2EDC2D3 /* APNumberPadStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberPadStyle.h; path = APNumberPad/Sources/APNumberPadStyle.h; sourceTree = "<group>"; };
 		0DC629E6B032C493FC7B5B174969D5CD /* Pods-APNumberPad_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APNumberPad_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		12694CA8B597DABA4DE071EFAFD6079D /* APNumberPadDefaultStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberPadDefaultStyle.h; path = APNumberPad/APNumberPadDefaultStyle.h; sourceTree = "<group>"; };
+		10895FA5B50B0D852CE1E8E5335A9EED /* ResourceBundle-APNumberPad-APNumberPad-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-APNumberPad-APNumberPad-Info.plist"; sourceTree = "<group>"; };
+		1531A8B34BAC65F47F6BB5CB31200B75 /* APNumberPad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = APNumberPad.modulemap; sourceTree = "<group>"; };
 		1658199046C7A5C1781F2E06BCF1C48E /* Pods-APNumberPad_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APNumberPad_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1863229C719940FBE34413E0214B9ECA /* Pods-APNumberPad_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APNumberPad_Example-dummy.m"; sourceTree = "<group>"; };
 		1D5E565DC74334DB9A405D482464730F /* Pods_APNumberPad_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APNumberPad_Tests.framework; path = "Pods-APNumberPad_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F33F5ED9911FD8428D9A12705114F98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		201F7BF855996857F103A1E133C61B3F /* APNumberPad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APNumberPad-umbrella.h"; sourceTree = "<group>"; };
+		2F8639A1D49B3E5B02D08756D7853B76 /* APNumberButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APNumberButton.m; path = APNumberPad/Sources/APNumberButton.m; sourceTree = "<group>"; };
 		2F965888FDBA63ED55A2F45323E4DEE7 /* Pods-APNumberPad_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APNumberPad_Tests-Info.plist"; sourceTree = "<group>"; };
-		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		301DEC85F681903055A7046E897C981D /* APNumberButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberButton.h; path = APNumberPad/Sources/APNumberButton.h; sourceTree = "<group>"; };
 		3530234B4D808B9A06B7D0A06C43C8B2 /* Pods-APNumberPad_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APNumberPad_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3DB934D3A6EDEA5213416D7F380587DA /* NSBundle+APNumberPad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+APNumberPad.m"; sourceTree = "<group>"; };
-		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4BA76C76737F80FACF876FE118F64EA9 /* APNumberPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APNumberPad-dummy.m"; sourceTree = "<group>"; };
-		56B14799410DF69B76E6F3FFC956FC8D /* NSBundle+APNumberPad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+APNumberPad.h"; sourceTree = "<group>"; };
-		5828D0925C0EACAEE660D802CD78014D /* APNumberPad-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "APNumberPad-Info.plist"; sourceTree = "<group>"; };
+		58497101BD1081290273FC27ACF596AC /* APNumberPadDefaultStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APNumberPadDefaultStyle.m; path = APNumberPad/Sources/APNumberPadDefaultStyle.m; sourceTree = "<group>"; };
+		5D1ABBA2B2EF4847662DDF7F739DD8D6 /* APNumberPad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APNumberPad-umbrella.h"; sourceTree = "<group>"; };
 		5E3CB2EA5BF8631014010CDD22255141 /* Pods-APNumberPad_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APNumberPad_Example-umbrella.h"; sourceTree = "<group>"; };
-		66123EC6D2BFA5263D16A88D5DE9E536 /* APNumberPad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = APNumberPad.modulemap; sourceTree = "<group>"; };
-		66D2D52475C3C73E80B41F529766EF38 /* APNumberButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = APNumberButton.m; sourceTree = "<group>"; };
-		6C3E0C985EC20DF28ECDC62E78FF54DB /* apnumberpad_backspace_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "apnumberpad_backspace_icon@2x.png"; path = "APNumberPad/Assets/apnumberpad_backspace_icon@2x.png"; sourceTree = "<group>"; };
-		6E8A8C7666AAEEE8AE2058AAA8BA9075 /* apnumberpad_backspace_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = apnumberpad_backspace_icon.png; path = APNumberPad/Assets/apnumberpad_backspace_icon.png; sourceTree = "<group>"; };
+		6AF2EAC6E457B589D646E5402E5DCFD1 /* APNumberPad-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "APNumberPad-Info.plist"; sourceTree = "<group>"; };
+		6E9327533EF789B67BBE0FD8A2586F6C /* APNumberPadDefaultStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberPadDefaultStyle.h; path = APNumberPad/Sources/APNumberPadDefaultStyle.h; sourceTree = "<group>"; };
+		6F278905B128CE17BD2BC7801DF95FEE /* NSBundle+APNumberPad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+APNumberPad.h"; path = "APNumberPad/Sources/NSBundle+APNumberPad.h"; sourceTree = "<group>"; };
 		6FC6D84BCA176E102F981743A3A624E7 /* Pods-APNumberPad_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APNumberPad_Tests-umbrella.h"; sourceTree = "<group>"; };
-		715ECBD8CC42FA7CACAD0EA4C89CA03E /* APNumberPadStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberPadStyle.h; path = APNumberPad/APNumberPadStyle.h; sourceTree = "<group>"; };
-		7E02DE97EDCF6522015266A5085CBFB0 /* APNumberButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APNumberButton.h; sourceTree = "<group>"; };
-		81BB2E1A52C4FF2B9CFD7A87A43FCEA2 /* APNumberPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APNumberPad.release.xcconfig; sourceTree = "<group>"; };
-		85FD94EBC92D225E531F74BA6D3DE3F5 /* APNumberPad.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = APNumberPad.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		729F3E75D67D80FE25A0E9643FCBAF3A /* APNumberPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APNumberPad.debug.xcconfig; sourceTree = "<group>"; };
+		73882447D56D52B7905896D6E56A5E34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		740CCB891AC9D68477052D7A673C5520 /* apnumberpad_backspace_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = apnumberpad_backspace_icon.png; path = APNumberPad/Assets/apnumberpad_backspace_icon.png; sourceTree = "<group>"; };
+		87452D8A7B32891186F9A25EA65D07E6 /* APNumberPad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APNumberPad-prefix.pch"; sourceTree = "<group>"; };
+		886C71E4B802CC74A941C816ADC6D34D /* APNumberPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APNumberPad.release.xcconfig; sourceTree = "<group>"; };
+		890D2F3101606BF6DF9E93AEA08DB365 /* APNumberPad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberPad.h; path = APNumberPad/Sources/APNumberPad.h; sourceTree = "<group>"; };
 		8942155D9259260A8F3086896D7BF505 /* APNumberPad.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = APNumberPad.bundle; path = "APNumberPad-APNumberPad.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89C10A78F482EB83F50BED94B1227AFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8AFFB5FF0AA578275F609CF04954DD8C /* Pods-APNumberPad_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APNumberPad_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		90761559BD3198ECE60E8E31C853CA24 /* apnumberpad_backspace_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "apnumberpad_backspace_icon@3x.png"; path = "APNumberPad/Assets/apnumberpad_backspace_icon@3x.png"; sourceTree = "<group>"; };
+		8F5E91F21119F3EBD6806B41C75BA9F0 /* apnumberpad_backspace_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "apnumberpad_backspace_icon@2x.png"; path = "APNumberPad/Assets/apnumberpad_backspace_icon@2x.png"; sourceTree = "<group>"; };
+		8F8790432D81CBD8C1F9A61A6523931C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F95ECEDABE9940FC8A7E15D4DE4E853 /* APNumberPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APNumberPad.debug.xcconfig; sourceTree = "<group>"; };
-		A06018CC77A2831CACA4381F40FC9A51 /* APNumberPad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberPad.h; path = APNumberPad/APNumberPad.h; sourceTree = "<group>"; };
-		AA04105856AAA2183C5E75771679C05A /* APNumberPad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APNumberPad-prefix.pch"; sourceTree = "<group>"; };
+		A1FF59A9D32B6538E4AA19BF83945C27 /* APNumberPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APNumberPad-dummy.m"; sourceTree = "<group>"; };
+		B796A90B7914CBD6B9D704424E127E1A /* APNumberPad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APNumberPad.m; path = APNumberPad/Sources/APNumberPad.m; sourceTree = "<group>"; };
 		BB1128A067BA918614B46CAE56F44A99 /* Pods-APNumberPad_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APNumberPad_Tests-dummy.m"; sourceTree = "<group>"; };
 		BEDD984F08B0C2C262F66D2B38ABF917 /* Pods-APNumberPad_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APNumberPad_Example.modulemap"; sourceTree = "<group>"; };
 		C8B4172C1D4F719653E26B7071FC0B5F /* Pods-APNumberPad_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APNumberPad_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF0A603BAE17E137808D5408A09F2037 /* APNumberPadDefaultStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APNumberPadDefaultStyle.m; path = APNumberPad/APNumberPadDefaultStyle.m; sourceTree = "<group>"; };
 		CFDD37CCA9631F2839A018729ECE5542 /* Pods-APNumberPad_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APNumberPad_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D1481587DE7F986B9E71A6E71A5117DD /* Pods-APNumberPad_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APNumberPad_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D1ED7BA5DE8C4C2A0EF22A2D05E8A1D1 /* Pods_APNumberPad_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APNumberPad_Example.framework; path = "Pods-APNumberPad_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2DC171A6EEFDB3CED2D88F7F34C4289 /* APNumberPad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APNumberPad.m; path = APNumberPad/APNumberPad.m; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DDF6A84024D374847E4F2146E3AB82DD /* Pods-APNumberPad_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APNumberPad_Tests.modulemap"; sourceTree = "<group>"; };
 		E5E77BB382AE2DA743E17AF911434DC9 /* Pods-APNumberPad_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APNumberPad_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9C312226239E7A153515ABEE0453341 /* APNumberPad.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = APNumberPad.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB3010956E41A7E570E0322286935F17 /* Pods-APNumberPad_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APNumberPad_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EDC8673674C80BDD7B3A0E2673A57590 /* ResourceBundle-APNumberPad-APNumberPad-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-APNumberPad-APNumberPad-Info.plist"; sourceTree = "<group>"; };
 		EEC01F5E181F9C6685980D3FF09AEF80 /* Pods-APNumberPad_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APNumberPad_Example-Info.plist"; sourceTree = "<group>"; };
+		F2C43D981CB4BF19D45134A7C62D7374 /* NSBundle+APNumberPad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+APNumberPad.m"; path = "APNumberPad/Sources/NSBundle+APNumberPad.m"; sourceTree = "<group>"; };
 		F78C619869EFCF16EF14CF28CD9B86C7 /* APNumberPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APNumberPad.framework; path = APNumberPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5618F19FDAF3FB21F0710933001967 /* apnumberpad_backspace_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "apnumberpad_backspace_icon@3x.png"; path = "APNumberPad/Assets/apnumberpad_backspace_icon@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7181CF53B2622DCA9049E17FF2F1032F /* Foundation.framework in Frameworks */,
-				85F9EC57ED0C3AD56BB2C1F3A9DEB00C /* UIKit.framework in Frameworks */,
+				1CE2B1884705717E6B7D30F9B33E4E8C /* Foundation.framework in Frameworks */,
+				CBEF5689C2BFE8499D401980E5DF195E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,11 +120,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3490EA5EBE2C3AFB7C3CDDE138208DC3 /* Foundation.framework in Frameworks */,
+				F0EBC1466923C2FE60E4709E1B2CAAD9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DB2DBF5209799FCD65A3EBECF5EBAAA /* Frameworks */ = {
+		D180E1732023D575B37C7E7F6C89D284 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,30 +135,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF5DB41C69CD81C3061920AC4E0A4AEF /* Foundation.framework in Frameworks */,
+				9BE2405997DD516DE8AF3DFFC1349C43 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		147EA96BB59DF4864F177B9A15802E4C /* APNumberPad */ = {
-			isa = PBXGroup;
-			children = (
-				A06018CC77A2831CACA4381F40FC9A51 /* APNumberPad.h */,
-				D2DC171A6EEFDB3CED2D88F7F34C4289 /* APNumberPad.m */,
-				12694CA8B597DABA4DE071EFAFD6079D /* APNumberPadDefaultStyle.h */,
-				CF0A603BAE17E137808D5408A09F2037 /* APNumberPadDefaultStyle.m */,
-				715ECBD8CC42FA7CACAD0EA4C89CA03E /* APNumberPadStyle.h */,
-				4496668A9DD254AA63359403BCA49EB8 /* Pod */,
-				B1552A5A86FA284F402CB5EC10467BEA /* Private */,
-				5181078A53D3FAC5DDE21AC0050A2A70 /* Resources */,
-				BCF22856107CE607A060F97024F6825B /* Support Files */,
-			);
-			name = APNumberPad;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		15761F377E08D498D2FACB8A0E41DEC5 /* Pods-APNumberPad_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,29 +162,26 @@
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4496668A9DD254AA63359403BCA49EB8 /* Pod */ = {
+		3E78CAF922C3DE1DFC179394EE53FC85 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				85FD94EBC92D225E531F74BA6D3DE3F5 /* APNumberPad.podspec */,
-				1F33F5ED9911FD8428D9A12705114F98 /* LICENSE */,
-				89C10A78F482EB83F50BED94B1227AFE /* README.md */,
+				BD65875385C0B73E3332AEAECCBF3883 /* APNumberPad */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5181078A53D3FAC5DDE21AC0050A2A70 /* Resources */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6E8A8C7666AAEEE8AE2058AAA8BA9075 /* apnumberpad_backspace_icon.png */,
-				6C3E0C985EC20DF28ECDC62E78FF54DB /* apnumberpad_backspace_icon@2x.png */,
-				90761559BD3198ECE60E8E31C853CA24 /* apnumberpad_backspace_icon@3x.png */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
-			name = Resources;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6225991CDDF9EE64E1376EA35337AC3B /* Pods-APNumberPad_Tests */ = {
@@ -220,6 +200,16 @@
 			path = "Target Support Files/Pods-APNumberPad_Tests";
 			sourceTree = "<group>";
 		};
+		65805369375ADBF08BD9DE5813DF1D6B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E9C312226239E7A153515ABEE0453341 /* APNumberPad.podspec */,
+				73882447D56D52B7905896D6E56A5E34 /* LICENSE */,
+				8F8790432D81CBD8C1F9A61A6523931C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		814203E00E1022231647186FCEFAFCDC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +217,22 @@
 				6225991CDDF9EE64E1376EA35337AC3B /* Pods-APNumberPad_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		974CCF3F8909B525C1A1477C95CB33CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1531A8B34BAC65F47F6BB5CB31200B75 /* APNumberPad.modulemap */,
+				A1FF59A9D32B6538E4AA19BF83945C27 /* APNumberPad-dummy.m */,
+				6AF2EAC6E457B589D646E5402E5DCFD1 /* APNumberPad-Info.plist */,
+				87452D8A7B32891186F9A25EA65D07E6 /* APNumberPad-prefix.pch */,
+				5D1ABBA2B2EF4847662DDF7F739DD8D6 /* APNumberPad-umbrella.h */,
+				729F3E75D67D80FE25A0E9643FCBAF3A /* APNumberPad.debug.xcconfig */,
+				886C71E4B802CC74A941C816ADC6D34D /* APNumberPad.release.xcconfig */,
+				10895FA5B50B0D852CE1E8E5335A9EED /* ResourceBundle-APNumberPad-APNumberPad-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/APNumberPad";
 			sourceTree = "<group>";
 		};
 		A222162BCB4983F4C25CB2FD64B53DCF /* Products */ = {
@@ -240,60 +246,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AED3A17F441561E54392C3DCF99BEA62 /* Development Pods */ = {
+		BD65875385C0B73E3332AEAECCBF3883 /* APNumberPad */ = {
 			isa = PBXGroup;
 			children = (
-				147EA96BB59DF4864F177B9A15802E4C /* APNumberPad */,
+				301DEC85F681903055A7046E897C981D /* APNumberButton.h */,
+				2F8639A1D49B3E5B02D08756D7853B76 /* APNumberButton.m */,
+				890D2F3101606BF6DF9E93AEA08DB365 /* APNumberPad.h */,
+				B796A90B7914CBD6B9D704424E127E1A /* APNumberPad.m */,
+				740CCB891AC9D68477052D7A673C5520 /* apnumberpad_backspace_icon.png */,
+				8F5E91F21119F3EBD6806B41C75BA9F0 /* apnumberpad_backspace_icon@2x.png */,
+				FB5618F19FDAF3FB21F0710933001967 /* apnumberpad_backspace_icon@3x.png */,
+				6E9327533EF789B67BBE0FD8A2586F6C /* APNumberPadDefaultStyle.h */,
+				58497101BD1081290273FC27ACF596AC /* APNumberPadDefaultStyle.m */,
+				0A60144ADD1E0F673B5F880BB2EDC2D3 /* APNumberPadStyle.h */,
+				6F278905B128CE17BD2BC7801DF95FEE /* NSBundle+APNumberPad.h */,
+				F2C43D981CB4BF19D45134A7C62D7374 /* NSBundle+APNumberPad.m */,
+				65805369375ADBF08BD9DE5813DF1D6B /* Pod */,
+				974CCF3F8909B525C1A1477C95CB33CA /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B1552A5A86FA284F402CB5EC10467BEA /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				7E02DE97EDCF6522015266A5085CBFB0 /* APNumberButton.h */,
-				66D2D52475C3C73E80B41F529766EF38 /* APNumberButton.m */,
-				56B14799410DF69B76E6F3FFC956FC8D /* NSBundle+APNumberPad.h */,
-				3DB934D3A6EDEA5213416D7F380587DA /* NSBundle+APNumberPad.m */,
-			);
-			name = Private;
-			path = APNumberPad/Private;
-			sourceTree = "<group>";
-		};
-		BCF22856107CE607A060F97024F6825B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				66123EC6D2BFA5263D16A88D5DE9E536 /* APNumberPad.modulemap */,
-				4BA76C76737F80FACF876FE118F64EA9 /* APNumberPad-dummy.m */,
-				5828D0925C0EACAEE660D802CD78014D /* APNumberPad-Info.plist */,
-				AA04105856AAA2183C5E75771679C05A /* APNumberPad-prefix.pch */,
-				201F7BF855996857F103A1E133C61B3F /* APNumberPad-umbrella.h */,
-				9F95ECEDABE9940FC8A7E15D4DE4E853 /* APNumberPad.debug.xcconfig */,
-				81BB2E1A52C4FF2B9CFD7A87A43FCEA2 /* APNumberPad.release.xcconfig */,
-				EDC8673674C80BDD7B3A0E2673A57590 /* ResourceBundle-APNumberPad-APNumberPad-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/APNumberPad";
+			name = APNumberPad;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AED3A17F441561E54392C3DCF99BEA62 /* Development Pods */,
+				3E78CAF922C3DE1DFC179394EE53FC85 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				A222162BCB4983F4C25CB2FD64B53DCF /* Products */,
 				814203E00E1022231647186FCEFAFCDC /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
-				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,16 +290,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A6811063013F60B8AC3AE0BE0D25045 /* Headers */ = {
+		4BE475C3FDEB4D6301628E6D47DB0578 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DCF7EE10499456D949C0B8507D3AE94 /* APNumberButton.h in Headers */,
-				2773D099EABF8DBE203DB9C8347AD1D9 /* APNumberPad-umbrella.h in Headers */,
-				27AC78193C8B7734B1112C2818F49909 /* APNumberPad.h in Headers */,
-				4769BFA97B60DF4EB731614BC2A163DD /* APNumberPadDefaultStyle.h in Headers */,
-				3BCEB2D3BBCF60C6E97BB0C0287EDCCB /* APNumberPadStyle.h in Headers */,
-				0EC542B6416E61299325CD4DB9495C77 /* NSBundle+APNumberPad.h in Headers */,
+				7C3B4128F8C39608462FDE8EA32FF5FA /* APNumberButton.h in Headers */,
+				639429D3D3FD96EC7295F7BA90F68C82 /* APNumberPad-umbrella.h in Headers */,
+				1A3AD57443C0B97A8FA2D237AD8FAAD3 /* APNumberPad.h in Headers */,
+				317A3DBFE6C4FC40B3ED5A3B441DBFDA /* APNumberPadDefaultStyle.h in Headers */,
+				F33070EC9F721DD7247B12A0D7C46DAB /* APNumberPadStyle.h in Headers */,
+				FE017E676D4000CB8E45A861007D0C40 /* NSBundle+APNumberPad.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,15 +318,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58BF34AB314070DE281CBA92FBF34F48 /* Build configuration list for PBXNativeTarget "APNumberPad" */;
 			buildPhases = (
-				1A6811063013F60B8AC3AE0BE0D25045 /* Headers */,
-				1D7D1E7060C8CEE3074662F1B674895D /* Sources */,
+				4BE475C3FDEB4D6301628E6D47DB0578 /* Headers */,
+				0606E3E9182345C95C42D24B22CD3FB8 /* Sources */,
 				810622289796AF48B2D8DB2B287C94E5 /* Frameworks */,
 				D5E4ED1CDB10AF468D708BEF1FE2DA00 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9D62725896579CE80D0554B517B640B4 /* PBXTargetDependency */,
+				42B3B6C57891DCF44E2D541AE279C52F /* PBXTargetDependency */,
 			);
 			name = APNumberPad;
 			productName = APNumberPad;
@@ -352,11 +335,11 @@
 		};
 		613112B675091A5BCA27E00EF544823E /* APNumberPad-APNumberPad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B2A2D3ECF63D754E14C7C4212FD88A8 /* Build configuration list for PBXNativeTarget "APNumberPad-APNumberPad" */;
+			buildConfigurationList = 4211A0FF4979CE7C5C38FC3A78A9ED26 /* Build configuration list for PBXNativeTarget "APNumberPad-APNumberPad" */;
 			buildPhases = (
-				9684440B88E8689E5B82DEF5B7E18440 /* Sources */,
-				8DB2DBF5209799FCD65A3EBECF5EBAAA /* Frameworks */,
-				AADB4C73016F634B0CE222E59132CDEA /* Resources */,
+				77E49C560FB3404D216E4E346CB242BD /* Sources */,
+				D180E1732023D575B37C7E7F6C89D284 /* Frameworks */,
+				6216DB8AD9667B244B4DE1101BD7D99E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -379,7 +362,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				02BF0FEB61D1A24C476A082A978F22E5 /* PBXTargetDependency */,
+				BCB42016EEC27B6A377926357D60AB66 /* PBXTargetDependency */,
 			);
 			name = "Pods-APNumberPad_Example";
 			productName = "Pods-APNumberPad_Example";
@@ -398,7 +381,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B31F2218E2CDF67A6590721E459BADB0 /* PBXTargetDependency */,
+				69EBBF0BF72A3F9BC11A7D5431478E57 /* PBXTargetDependency */,
 			);
 			name = "Pods-APNumberPad_Tests";
 			productName = "Pods-APNumberPad_Tests";
@@ -436,20 +419,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6216DB8AD9667B244B4DE1101BD7D99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B71ADA674F05541F11DCF42556604F1 /* apnumberpad_backspace_icon.png in Resources */,
+				E6F356297E36AF22C37D9A5A3A4D2A2B /* apnumberpad_backspace_icon@2x.png in Resources */,
+				CCE79EAC7024ECA0B998CCEDD0694E37 /* apnumberpad_backspace_icon@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A24A117E1698057EA7114A04D5C44AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AADB4C73016F634B0CE222E59132CDEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A895E53B1C9407EB6481BA15AC79799 /* apnumberpad_backspace_icon.png in Resources */,
-				1C8B837A2EBE31171D081176476D883B /* apnumberpad_backspace_icon@2x.png in Resources */,
-				A2321A732ED1F2359B1C101ADDC1B9D3 /* apnumberpad_backspace_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,15 +454,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D7D1E7060C8CEE3074662F1B674895D /* Sources */ = {
+		0606E3E9182345C95C42D24B22CD3FB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9482C22EB2DF69A4BC1860911FE9BDC /* APNumberButton.m in Sources */,
-				EEFA578A1C0E5DF933AB749EB105E073 /* APNumberPad-dummy.m in Sources */,
-				6D88E6133D7E499825C5B5B98939DC7E /* APNumberPad.m in Sources */,
-				ADD240D67CDB3EDC511058CD6C5E1AE4 /* APNumberPadDefaultStyle.m in Sources */,
-				BC8AE563652A0BC3AA8DE44CD76D83FF /* NSBundle+APNumberPad.m in Sources */,
+				5BD567ABBA37D72E9B391017860E5739 /* APNumberButton.m in Sources */,
+				0CEED3BDC20A5D6A392D1C94186C9172 /* APNumberPad-dummy.m in Sources */,
+				A887B0DBA8F00320030C598CFBEDB5E8 /* APNumberPad.m in Sources */,
+				AAE60156429E9FBBF74B4DC5707116EE /* APNumberPadDefaultStyle.m in Sources */,
+				F415B61EE48619AC23D72EE2351FE02E /* NSBundle+APNumberPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E49C560FB3404D216E4E346CB242BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,13 +478,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4658DB887026B41FBB76ADF2521475 /* Pods-APNumberPad_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9684440B88E8689E5B82DEF5B7E18440 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,32 +492,61 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02BF0FEB61D1A24C476A082A978F22E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = APNumberPad;
-			target = 0315D731DDEDEDC66417054CE919FCB0 /* APNumberPad */;
-			targetProxy = 4E530759600C5C134D3135FDD9A51565 /* PBXContainerItemProxy */;
-		};
-		9D62725896579CE80D0554B517B640B4 /* PBXTargetDependency */ = {
+		42B3B6C57891DCF44E2D541AE279C52F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "APNumberPad-APNumberPad";
 			target = 613112B675091A5BCA27E00EF544823E /* APNumberPad-APNumberPad */;
-			targetProxy = 57F6D000947561B1683C19C181EF19F4 /* PBXContainerItemProxy */;
+			targetProxy = B8C8404C061F7AD1C0371EBA49435D00 /* PBXContainerItemProxy */;
 		};
-		B31F2218E2CDF67A6590721E459BADB0 /* PBXTargetDependency */ = {
+		69EBBF0BF72A3F9BC11A7D5431478E57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-APNumberPad_Example";
 			target = B4A8343EF43F22A4948A42C0632F0D89 /* Pods-APNumberPad_Example */;
-			targetProxy = 7C0794A960B42E4B8AEF51C0C14F5C55 /* PBXContainerItemProxy */;
+			targetProxy = 4FDC3F6463F8B92547A7E753FA28E68F /* PBXContainerItemProxy */;
+		};
+		BCB42016EEC27B6A377926357D60AB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APNumberPad;
+			target = 0315D731DDEDEDC66417054CE919FCB0 /* APNumberPad */;
+			targetProxy = 7B1EF546E0C7E434E3D8A803A837F671 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2CBDF080ACDAD33B581F805C1A27F44F /* Debug */ = {
+		21489FBCE999E397D80BA803786E0999 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F95ECEDABE9940FC8A7E15D4DE4E853 /* APNumberPad.debug.xcconfig */;
+			baseConfigurationReference = 886C71E4B802CC74A941C816ADC6D34D /* APNumberPad.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/APNumberPad/APNumberPad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APNumberPad/APNumberPad-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APNumberPad/APNumberPad.modulemap";
+				PRODUCT_MODULE_NAME = APNumberPad;
+				PRODUCT_NAME = APNumberPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2191FF3BC6973C891EBB538C2C90C8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729F3E75D67D80FE25A0E9643FCBAF3A /* APNumberPad.debug.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -560,10 +572,11 @@
 			};
 			name = Debug;
 		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -586,99 +599,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		5DDC62532FD22B8EB39545C5BD2978FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DC629E6B032C493FC7B5B174969D5CD /* Pods-APNumberPad_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-APNumberPad_Tests/Pods-APNumberPad_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-APNumberPad_Tests/Pods-APNumberPad_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -704,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -717,77 +638,11 @@
 			};
 			name = Debug;
 		};
-		89937FB095FF4DF91375EB8F2EEF6AE2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F95ECEDABE9940FC8A7E15D4DE4E853 /* APNumberPad.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/APNumberPad";
-				IBSC_MODULE = APNumberPad;
-				INFOPLIST_FILE = "Target Support Files/APNumberPad/ResourceBundle-APNumberPad-APNumberPad-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = APNumberPad;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8E2AE3FFCF3517FBE6DF629A38D3514F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81BB2E1A52C4FF2B9CFD7A87A43FCEA2 /* APNumberPad.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/APNumberPad/APNumberPad-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/APNumberPad/APNumberPad-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/APNumberPad/APNumberPad.modulemap";
-				PRODUCT_MODULE_NAME = APNumberPad;
-				PRODUCT_NAME = APNumberPad;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C6CA1FEA146D26A88723A3B9522A0FBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81BB2E1A52C4FF2B9CFD7A87A43FCEA2 /* APNumberPad.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/APNumberPad";
-				IBSC_MODULE = APNumberPad;
-				INFOPLIST_FILE = "Target Support Files/APNumberPad/ResourceBundle-APNumberPad-APNumberPad-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = APNumberPad;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		CFB098047DB089FC7ABB6456E2508268 /* Release */ = {
+		29BAA148A8FFEB438716E64974D837D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CFDD37CCA9631F2839A018729ECE5542 /* Pods-APNumberPad_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -798,7 +653,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-APNumberPad_Example/Pods-APNumberPad_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-APNumberPad_Example/Pods-APNumberPad_Example.modulemap";
@@ -816,12 +671,11 @@
 			};
 			name = Release;
 		};
-		D2C888A4B64F76BFB36C33856005821F /* Release */ = {
+		4AD4F09DEF097C005B061B1B80DF8A60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1658199046C7A5C1781F2E06BCF1C48E /* Pods-APNumberPad_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -832,7 +686,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-APNumberPad_Tests/Pods-APNumberPad_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-APNumberPad_Tests/Pods-APNumberPad_Tests.modulemap";
@@ -850,12 +704,43 @@
 			};
 			name = Release;
 		};
-		E9887AA70ADAA811FB9129780A72B729 /* Debug */ = {
+		7B73F933CA6D7FA412888DAF890DA497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886C71E4B802CC74A941C816ADC6D34D /* APNumberPad.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/APNumberPad";
+				IBSC_MODULE = APNumberPad;
+				INFOPLIST_FILE = "Target Support Files/APNumberPad/ResourceBundle-APNumberPad-APNumberPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = APNumberPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		933960B220DFAECDF804CA7CC36189A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729F3E75D67D80FE25A0E9643FCBAF3A /* APNumberPad.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/APNumberPad";
+				IBSC_MODULE = APNumberPad;
+				INFOPLIST_FILE = "Target Support Files/APNumberPad/ResourceBundle-APNumberPad-APNumberPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = APNumberPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A3AC212A792EE54FC8B25318B8196F0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D1481587DE7F986B9E71A6E71A5117DD /* Pods-APNumberPad_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -866,10 +751,104 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-APNumberPad_Example/Pods-APNumberPad_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-APNumberPad_Example/Pods-APNumberPad_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E2A9BC24A3BBE11460E00ADF4F4B7493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC629E6B032C493FC7B5B174969D5CD /* Pods-APNumberPad_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APNumberPad_Tests/Pods-APNumberPad_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APNumberPad_Tests/Pods-APNumberPad_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -889,8 +868,17 @@
 		3A03BF3580820D32911CE6C15FDC1ADF /* Build configuration list for PBXNativeTarget "Pods-APNumberPad_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9887AA70ADAA811FB9129780A72B729 /* Debug */,
-				CFB098047DB089FC7ABB6456E2508268 /* Release */,
+				A3AC212A792EE54FC8B25318B8196F0F /* Debug */,
+				29BAA148A8FFEB438716E64974D837D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4211A0FF4979CE7C5C38FC3A78A9ED26 /* Build configuration list for PBXNativeTarget "APNumberPad-APNumberPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933960B220DFAECDF804CA7CC36189A5 /* Debug */,
+				7B73F933CA6D7FA412888DAF890DA497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -898,8 +886,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -907,17 +895,8 @@
 		58BF34AB314070DE281CBA92FBF34F48 /* Build configuration list for PBXNativeTarget "APNumberPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CBDF080ACDAD33B581F805C1A27F44F /* Debug */,
-				8E2AE3FFCF3517FBE6DF629A38D3514F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5B2A2D3ECF63D754E14C7C4212FD88A8 /* Build configuration list for PBXNativeTarget "APNumberPad-APNumberPad" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				89937FB095FF4DF91375EB8F2EEF6AE2 /* Debug */,
-				C6CA1FEA146D26A88723A3B9522A0FBB /* Release */,
+				2191FF3BC6973C891EBB538C2C90C8CF /* Debug */,
+				21489FBCE999E397D80BA803786E0999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -925,8 +904,8 @@
 		A84CD02A91AAB9507234ACEDA447A302 /* Build configuration list for PBXNativeTarget "Pods-APNumberPad_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DDC62532FD22B8EB39545C5BD2978FC /* Debug */,
-				D2C888A4B64F76BFB36C33856005821F /* Release */,
+				E2A9BC24A3BBE11460E00ADF4F4B7493 /* Debug */,
+				4AD4F09DEF097C005B061B1B80DF8A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

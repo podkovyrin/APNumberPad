@@ -208,7 +208,6 @@
 				BFDDCF438CC16F408EB28021 /* Pods-APNumberPad_Tests.debug.xcconfig */,
 				AB503A1836438ED3460FBD4A /* Pods-APNumberPad_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
