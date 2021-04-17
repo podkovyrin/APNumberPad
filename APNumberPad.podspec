@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'APNumberPad'
-  s.version          = '1.3.2'
+  s.version          = '1.3.3'
   s.summary          = 'Full clone of iOS number keyboard with customizable function button'
 
   s.description      = <<-DESC
@@ -18,8 +18,8 @@ Also APNumberPad provides customizable left-function button.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'APNumberPad/**/*.{h,m}'
-  s.public_header_files = 'APNumberPad/*.h'
+  s.source_files = 'APNumberPad/Sources/*.{h,m}'
+  s.public_header_files = 'APNumberPad/Sources/*.h'
   s.resource_bundles = {
     'APNumberPad' => ['APNumberPad/Assets/*.png']
   }
