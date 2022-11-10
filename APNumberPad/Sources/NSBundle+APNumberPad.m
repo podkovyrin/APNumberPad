@@ -8,6 +8,7 @@
 //  Category credits to Chris Dzombak https://github.com/NYTimes/NYTPhotoViewer
 
 #import "NSBundle+APNumberPad.h"
+#import "APNumberPad.h"
 
 @implementation NSBundle (APNumberPad)
 
@@ -18,8 +19,7 @@
     static NSBundle *resourceBundle = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSString *resourceBundlePath = [[NSBundle bundleForClass:NSClassFromString(@"APNumberPad")] pathForResource:@"APNumberPad" ofType:@"bundle"];
-        resourceBundle = [self bundleWithPath:resourceBundlePath];
+        resourceBundle = [NSBundle bundleForClass:[APNumberPad class]];
     });
 
     return resourceBundle;
